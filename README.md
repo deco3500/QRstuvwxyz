@@ -2,7 +2,8 @@
 Team Worldwide - Toy/TszLam/Byran/Victoria
 
 ## Indroduction
-When people hear “news” they often associated it to something that is uninteresting due to how it is presented. Technology throughout the years has been improving as well as the way we interact with it, but what has come to a realisation is that news still has its similarities and has not shifted in the way it presents itself. The constant repetition of images and texts has resulted into many individuals not being interested in it because of its unexciting interaction. What has been identified is the interaction of reading and looking at images, scrolling up and down and/or flipping pages.</ br>
+When people hear “news” they often associated it to something that is uninteresting due to how it is presented. Technology throughout the years has been improving as well as the way we interact with it, but what has come to a realisation is that news still has its similarities and has not shifted in the way it presents itself. The constant repetition of images and texts has resulted into many individuals not being interested in it because of its unexciting interaction. What has been identified is the interaction of reading and looking at images, scrolling up and down and/or flipping pages.<br />
+<br />
 What is also recognised is that people interact more with news when it relates to something that they are specifically interested in or so are their friends. Once individuals have found a topic they want to become knowledgeable about and that they have friends and other users being interested in the same topic, they are to focus on the additional materials and want to further read on it more. In order to make users have a more interesting way to interact with news as well as be more socially interactive, it has been decided to create a website that provides both a fun way to look at news and interact with other users with common interests.
 
 ##Concept
