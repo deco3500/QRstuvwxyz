@@ -14,6 +14,12 @@ The aim of the project is to have users who want to know more about news and com
 Audiences for Spinning News vary as there are many different types of news and topics that will be available for users to read about.  Our main audiences that we aim to build this website around are users who are interested in fun interactive websites. Usually aged 8-26 are interested in interactive websites with different animations and different ways on how materials are presented. It is also recognised that users between these ages enjoy interacting with one another and being socially active. As Spinning News will allow users to communicate with each other through live chat and follow each other and browse through different profiles to see what news they read, we target to have users who are between these ages where they are most likely to spend a lot of time being socially active.<br />
 <br />
 What stands out about Spinning News is the way news is being delivered and how users interact with the news. As previously mentioned the technology has changed throughout the years but what has not shifted is the interaction users have with news. It is believed that Spinning News offers a more exciting approach to delivering news and how users interact with news and to furthermore interact with one another.<br />
+
+![14215682_10153770049530969_396731559_o](https://cloud.githubusercontent.com/assets/13609350/18228656/0af4c572-729b-11e6-8bc1-c1d936f07ade.jpeg)
+
+
+
+
 ##Team
 ####Termporn Sirichindakul (Team leader)
 * Student Number: 43007079
