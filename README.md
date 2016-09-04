@@ -49,8 +49,23 @@ Team members are required to act and behave helpful toward all the tasks and mus
 
 ###Proposed Timeline
 | Week        | Task           | Due date  |
+| ------------- |:-------------:| -----:|
 | Research stage                        |
-| 7 (4 Sep - 10 Sep)     | Project Proposal,Research,Problem Identification,Solution ideas brainstorming      |   $12 |
+| ------------- |:-------------:| -----:|
+| 7 (4 Sep - 10 Sep)     | Project Proposal,Research,Problem Identification,Solution ideas brainstorming      |   5 Sep 2016 |
+|8 (11 Sep - 17 Sep)|Create personas|17 Sep 2016|
+| ------------- |:-------------:| -----:|
+| Design stage                        |
+| ------------- |:-------------:| -----:|
+|9 (11 Sep - 17 Sep)|Design, Color shaema and wireframe |24 Sep 2016|
+| ------------- |:-------------:| -----:|
+| Mid-sem break           |
+| ------------- |:-------------:| -----:|
+|10 (11 Sep - 17 Sep)|Create personas|17 Sep 2016|
+|11 (11 Sep - 17 Sep)|Create personas|17 Sep 2016|
+|12 (11 Sep - 17 Sep)|Create personas|17 Sep 2016|
+
+
 
 
 ###Human resources
