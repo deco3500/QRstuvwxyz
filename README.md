@@ -97,6 +97,15 @@ If the conflicts are still cannot be solve, the issues will be brought to the at
 ##Plan
 
 ###Proposed Timeline
+The table below shows the key deliverables for each project stage with it tasks and due date. There are 3 stages in total, they are research stage, design stage and construction stage. <br>
+
+Firstly, in the research stage, we will be researching on the ways of methods to design and implement the application/ website.<br>
+
+Secondly, design stage includes creating sitemap, wireframe and mockup for the website. Also the color schema of the website will be set in this stage. Moreover, adjustments will be made after having the first stand up session.<br>
+
+Finally, during construction stage, we will work on technical implementation of the early prototype, holding user experience tests then making adjustments based on feedback from tests and stand up sessions in week 10 and 12.<br>
+
+
 | Week        | Task           | Due date  |
 | ----------------- |:------------------:| --------------:|
 | Research stage                             |
