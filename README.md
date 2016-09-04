@@ -2,13 +2,17 @@
 Team Worldwide - Toy/TszLam/Byran/Victoria
 
 ## Indroduction
-When people hear “news” they often associated it to something that is uninteresting due to how it is presented. Technology throughout the years has been improving as well as the way we interact with it, but what has come to a realisation is that news still has its similarities and has not shifted in the way it presents itself. The constant repetition of images and texts has resulted into many individuals not being interested in it because of its unexciting interaction. What has been identified is the interaction of reading and looking at images, scrolling up and down and/or flipping pages.</ br>
+When people hear “news” they often associated it to something that is uninteresting due to how it is presented. Technology throughout the years has been improving as well as the way we interact with it, but what has come to a realisation is that news still has its similarities and has not shifted in the way it presents itself. The constant repetition of images and texts has resulted into many individuals not being interested in it because of its unexciting interaction. What has been identified is the interaction of reading and looking at images, scrolling up and down and/or flipping pages.<br />
+<br />
 What is also recognised is that people interact more with news when it relates to something that they are specifically interested in or so are their friends. Once individuals have found a topic they want to become knowledgeable about and that they have friends and other users being interested in the same topic, they are to focus on the additional materials and want to further read on it more. In order to make users have a more interesting way to interact with news as well as be more socially interactive, it has been decided to create a website that provides both a fun way to look at news and interact with other users with common interests.
 
 ##Concept
 The idea of Spinning News is a website that is to be created with engaging animations in order for users to have a fun interaction with it. The website consists of a globe that is spinning around on the screen and there are pinpoints within the globe of news around the world. Within the globe, it will indicate which areas are being read more and read less by the size and the amount of pinpoints in one location. It will allow users to recognise most read global news and interact with the news in a different manner. Users can filter what kind of news they would like to read around the world, whether it is sports, humour, politics, environment and many more. Once they recognise a pinpoint they are interested in, they are to click on the news and it will zoom into the globe of the area and give a description about the news.  Regarding with the social aspect between users, users can log in to create their own profile and chat with other users around the world that are interested in the particular news. Users are also able to follow each other to see what other users have read and discussed about. Users can communicate with each other and become friends and furthermore follow each other on the website. Upon doing so, users can see what the other users are currently following, what they have read and who they have interacted with.<br />
+<br />
 The aim of the project is to have users who want to know more about news and communicate with other users around the world that have common interests. By doing so, the goal for Spinning News is to have a fun, exciting, well designed interface in order for users to have the best interactions with the website, is to have users enjoy their time on the website while they further read about news, and expand their knowledge about the world through recent news and others around the world.  Furthermore users can interact with each other by communicating through chat and following each other’s profiles.<br />
+<br />
 Audiences for Spinning News vary as there are many different types of news and topics that will be available for users to read about.  Our main audiences that we aim to build this website around are users who are interested in fun interactive websites. Usually aged 8-26 are interested in interactive websites with different animations and different ways on how materials are presented. It is also recognised that users between these ages enjoy interacting with one another and being socially active. As Spinning News will allow users to communicate with each other through live chat and follow each other and browse through different profiles to see what news they read, we target to have users who are between these ages where they are most likely to spend a lot of time being socially active.<br />
+<br />
 What stands out about Spinning News is the way news is being delivered and how users interact with the news. As previously mentioned the technology has changed throughout the years but what has not shifted is the interaction users have with news. It is believed that Spinning News offers a more exciting approach to delivering news and how users interact with news and to furthermore interact with one another.<br />
 ##Team
 ####Termporn Sirichindakul (Team leader)
@@ -88,26 +92,29 @@ If the conflicts are still cannot be solve, the issues will be brought to the at
 
 ###Proposed Timeline
 | Week        | Task           | Due date  |
-| ------------- |:-------------:| -----:|
-| Research stage                        |
-| ------------- |:-------------:| -----:|
-| 7 (4 Sep - 10 Sep)     | Project Proposal,Research,Problem Identification,Solution ideas brainstorming      |   5 Sep 2016 |
+| ----------------- |:------------------:| --------------:|
+| Research stage                             |
+| 7 (4 Sep - 10 Sep)     | Project Proposal<br>Research<br>Problem Identification<br>Solution ideas brainstorming      |   5 Sep 2016 |
 |8 (11 Sep - 17 Sep)|Create personas|17 Sep 2016|
-| ------------- |:-------------:| -----:|
-| Design stage                        |
-| ------------- |:-------------:| -----:|
-|9 (11 Sep - 17 Sep)|Design, Color shaema and wireframe |24 Sep 2016|
-| ------------- |:-------------:| -----:|
-| Mid-sem break           |
-| ------------- |:-------------:| -----:|
-|10 (11 Sep - 17 Sep)|Create personas|17 Sep 2016|
-|11 (11 Sep - 17 Sep)|Create personas|17 Sep 2016|
-|12 (11 Sep - 17 Sep)|Create personas|17 Sep 2016|
+| Design stage  |
+|9 (18 Sep - 24 Sep)|Design color shaema and wireframe |24 Sep 2016|
+| Mid-sem break  |
+|10 (11 Sep - 17 Sep)|Design sitemap and mockup|8 Oct 2016|
+| Construction break |
+|11 (9 Oct - 15 Oct)|Building of early prototype and User experience test/ usability testing|15 Oct 2016|
+|12 (16 Oct - 22 Oct)|Improvement based on feedback|22 Oct 2016|
+|13 (23 Oct - 28 Oct)|Refinement of prototype, Final view of prototype, Design prototype|28 Oct 2016|
+
 
 
 
 
 ###Human resources
+| Project stage       | Role           | No. Of labour require  | 
+| ------------------ |:-------------:| ------------------:|
+| Research stage      | Team leader <br>Developer<br>UX/UI Designer | 1<br>2<br>1| 
+| Design stage        | Team leader <br>Developer<br>UX/UI Designer | 1<br>1<br>2| 
+| construction stage  | Team leader <br>Developer<br>UX/UI Designer | 1<br>2<br>1|
 
 ##Tag
 #Communication #social #fun #interactive
