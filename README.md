@@ -49,9 +49,7 @@ Team members are required to act and behave helpful toward all the tasks and mus
 
 ###Proposed Timeline
 | Week        | Task           | Due date  |
-| ----------- |:------------:| --------:|
 | Research stage                        |
-| ----------- |:------------:| --------:|
 | 7 (4 Sep - 10 Sep)     | Project Proposal,Research,Problem Identification,Solution ideas brainstorming      |   $12 |
 
 
