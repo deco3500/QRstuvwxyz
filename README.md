@@ -96,14 +96,11 @@ If the conflicts are still cannot be solve, the issues will be brought to the at
 | Research stage                             |
 | 7 (4 Sep - 10 Sep)     | Project Proposal<br>Research<br>Problem Identification<br>Solution ideas brainstorming      |   5 Sep 2016 |
 |8 (11 Sep - 17 Sep)|Create personas|17 Sep 2016|
-| ------------- |:-------------:| -----:|
-| Design stage                        |
+| Design stage  |
 |9 (18 Sep - 24 Sep)|Design color shaema and wireframe |24 Sep 2016|
-| ------------- |:-------------:| -----:|
-| Mid-sem break           |
+| Mid-sem break  |
 |10 (11 Sep - 17 Sep)|Design sitemap and mockup|8 Oct 2016|
-| ------------- |:-------------:| -----:|
-| Construction break           |
+| Construction break |
 |11 (9 Oct - 15 Oct)|Building of early prototype and User experience test/ usability testing|15 Oct 2016|
 |12 (16 Oct - 22 Oct)|Improvement based on feedback|22 Oct 2016|
 |13 (23 Oct - 28 Oct)|Refinement of prototype, Final view of prototype, Design prototype|28 Oct 2016|
