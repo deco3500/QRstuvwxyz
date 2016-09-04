@@ -132,4 +132,9 @@ Finally, during construction stage, we will work on technical implementation of 
 | construction stage  | Team leader <br>Developer<br>UX/UI Designer | 1<br>2<br>1|
 
 ##Tag
-\#Communication #social #fun #interactive
+####Social/Mobile:
+\#Communication #Social #Interactive #Web-application #Attractive
+####Journalism/News:
+\#Awareness #International
+
+
