@@ -1,5 +1,4 @@
-# Worldwide
-Team Worldwide - Toy/TszLam/Byran/Victoria
+# Team Worldwide
 
 ## Indroduction
 When people hear “news” they often associated it to something that is uninteresting due to how it is presented. Technology throughout the years has been improving as well as the way we interact with it, but what has come to a realisation is that news still has its similarities and has not shifted in the way it presents itself. The constant repetition of images and texts has resulted into many individuals not being interested in it because of its unexciting interaction. What has been identified is the interaction of reading and looking at images, scrolling up and down and/or flipping pages.<br />
