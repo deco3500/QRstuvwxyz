@@ -65,11 +65,11 @@ Team members are required to act and behave helpful toward all the tasks and mus
 * If the member still do not perform any improvement after the first two step has executed, then tutors will be contacted for further instruction.
 
 ###Resolving Conflicts
-The conflicting team members should first meet up and discuss the reason of the conflict. Both side should first brainstorm for the solutions and find the best way to solve the issue. They must then agree on the solution that they considered to be the best solution and start planning on how to execute it. If the conflicting team members have found the best method to solve the issue, the last things is to implement the solution and see the final result of this decision. Both sides are responsible on monitor the solution and make any adjustments if the solution is not quite effective or another problems have appeared.</ br> 
+The conflicting team members should first meet up and discuss the reason of the conflict. Both side should first brainstorm for the solutions and find the best way to solve the issue. They must then agree on the solution that they considered to be the best solution and start planning on how to execute it. If the conflicting team members have found the best method to solve the issue, the last things is to implement the solution and see the final result of this decision. Both sides are responsible on monitor the solution and make any adjustments if the solution is not quite effective or another problems have appeared.
 
-If the conflicting team members cannot reach to an agreement to solve the issues, then the remaining team will need to vote based on their opinion in order to decide who is correct in this confliction.</ br>
+If the conflicting team members cannot reach to an agreement to solve the issues, then the remaining team will need to vote based on their opinion in order to decide who is correct in this confliction.
 
-If the conflicts are still cannot be solve, the issues will be brought to the attention of the tutor and course coordinator for further intervention.</ br>
+If the conflicts are still cannot be solve, the issues will be brought to the attention of the tutor and course coordinator for further intervention.
 
 ##Communication
 ####General Communication
