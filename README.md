@@ -33,7 +33,7 @@ What stands out about Spinning News is the way news is being delivered and how u
 * M: 0406202655, E: hiu.shum@uq.net.au
 * Familiar with MySQL and Oracle, HTML, CSS, JavaScript, PHP and bootstrap
 * 3rd year Information Technology
-* Responsible for organizing meeting
+* Responsible for resources
 * Key role: Back end
 
 ####Hiu Lam Lee (Victoria) 
@@ -49,7 +49,7 @@ What stands out about Spinning News is the way news is being delivered and how u
 * M: 0406012241, E: koyukiv3v@gmail.com
 * Interests include HTML, CSS, Design
 * 3rd year Information Technology
-* Responsible for organizing meeting
+* Responsible for equipment
 * Key role: Design
 
 ##Decision Making
