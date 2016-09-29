@@ -1,6 +1,5 @@
 html{
     font-family: Tahoma, Century, Helvetica, sans-serif; 
-
 }
 
 body {
@@ -13,6 +12,25 @@ body {
     min-height: 100%;
     overflow: hidden;
 }
+
+
+
+
+#map{
+	top: 0; 
+	right: 0; 
+	bottom: 0; 
+	left: 0; 
+	background-color: #000; 
+	position: absolute !important;
+}
+      
+#coords{
+	position: 
+	absolute; 
+	bottom: 10px; 
+	right: 10px; 
+	z-index: 100000;}
 
 /*INDEX PAGE/SPLASH*/
 	.outerIndex {
