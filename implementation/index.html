@@ -3,7 +3,7 @@
 
 <head>
   <title> Spinning News </title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="cssf/style.css">
   <script type="text/javascript"> </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="js/jquery.js"></script>
@@ -11,31 +11,31 @@
   
   <script src="js/globe.js"></script>
   
-  <script>
   
 
-</script>
-
 <style>
-      html, body{padding: 0; margin: 0;}
+      
+    html, body{padding: 0; margin: 0;}
       h1{color:#5d5d5d; text-align: center;}
       p{color: #5d5d5d; text-align: right; padding-right: 30px;}
       #loginbutton{background-color: #898989; border-radius: 8px; border-color: white; padding: 3px 18px; box-shadow: none; color:white;}
       #buttonleft{background-color: #f5f5f5; border-radius: 6px; border-color: #777777; border-width: 1px; padding:15px 30px; font-size: 20px; color: #5e5d5d; margin-left: 60px; margin-bottom: 40px;}
       #buttonright{background-color: #f5f5f5; border-radius: 6px; border-color: #777777; border-width: 1px; padding:15px 30px; font-size: 20px; color: #5e5d5d; margin-right: 60px; float: right;}
-      #earth_div{top: 0; right: 0; bottom: 0; left: 0; position: absolute !important; width: 70%; height: 70%;}
+      #btnleft{float:right;}
+      #btnright{float:right;}
+      #earth_div{top: 0; right: 0; bottom: 0; left: 0; position: absolute !important; width: 50%; height: 50%;}
       /* The Modal (background) */
       .modal {display: none;position: fixed; z-index: 1; padding-top: 100px; left: 0; top: 0; width: 100;height: 100%; overflow: auto; background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4); }
 
       .modal-content {background-color: #fefefe;margin: auto;padding: 20px;border: 1px solid #888;width: 40%;}
       .close {color: #aaaaaa;float: right;font-size: 28px;font-weight: bold;}
       .close:hover,.close:focus {color: #000;text-decoration: none;cursor: pointer;}
+
       h3 {text-align: center;}
       button{width: 200px;height: 50px;margin: 50px 0;background: #3498db;border: none;color: #fff;font-size: 14px;font-weight: bold;border-radius: 5px;}
       button#loginbtn {display: block;background: #3498db;color: #fff;margin-left: 29%;}
       button#loginbtn:hover {background: #2980b9;color: #1b5377;}
       button#logoutbtn {display:none;} 
-
 </style>
 
 </head>
@@ -47,48 +47,33 @@
 
 
 <body onload="initialize()">
-  <div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close"> X </span>
-    <h3>Please login through Facebook</h3>
-
-    <button id="loginbtn" type="button" onclick="checkLoginState();">Connect to Facebook</button>
-  </div>
-
-  </div>
 
 
-  <div id="status">
-  </div>
-
-  <button id="logoutbtn" type="button">Logout</button>
-
-
-
-  <div class="outerIndex">
-    <button id="buttonleft" type="button">Dashborad</button>
+    <div id="btnright">
+    <button type="button">Dashborad</button>
     <br>
-    <button id="buttonleft" type="button">User1 <br>What they read</button>
-    <button id="buttonright" type="button"><input type="checkbox" name="option1" value="category1"> Category1</button>
+    <button type="button">User1 <br>What they read</button>
     <br>
-    <button id="buttonleft" type="button">User2 <br>What they read</button>
-    <button id="buttonright" type="button"><input type="checkbox" name="option2" value="category2"> Category2</button>
+    <button type="button">User2 <br>What they read</button>
     <br>
-    <button id="buttonleft" type="button">User3 <br>What they read</button>
-    <button id="buttonright" type="button"><input type="checkbox" name="option3" value="category3"> Category3</button>
+    <button type="button">User3 <br>What they read</button>
+    </div>
+
+    <div id="btnleft">
+    <button type="button"><input type="checkbox" name="option1" value="category1"> Category1</button>
+    <br>
+    <button type="button"><input type="checkbox" name="option2" value="category2"> Category2</button>
+    <br>
+    <button type="button"><input type="checkbox" name="option3" value="category3"> Category3</button>
+    </div>
+    
   <a href="chat/chat.php">Chatroom</a>
-  <div class="middleIndex">
-  <div class="innerIndex">
     <!-- globe goes here, centers everything properly -->
-    <div id="earth_div"></div>
+
+    <div id="earth_div">
     <div id="map"></div>
     <div id="coords"></div>
-
-  </div>
-  </div>
-  </div>
+    </div>
 </body>
 
 </html>
