@@ -15,7 +15,11 @@
 </head>
 <header >
 
-<h2>Spinning News</h2>
+<h2>Spinning News</h2> 
+
+<div id="status">
+</div>
+<button id="logoutbtn" type="button" onclick="fblogout();">Logout</button>
 
 
 <!-- The Modal -->
@@ -32,10 +36,8 @@
 </div>
 
 
-<div id="status">
-</div>
 
-<button id="logoutbtn" type="button">Logout</button>
+
 
 
 <script src="http://localhost/~rubylee/js/loginpopup.js"></script>
@@ -95,14 +97,16 @@ function addSomeMarkers() {
 
 
 <style>
-    html, body{padding: 0; margin:0; background-color: none;}
-          h2{color:#5d5d5d; text-align: center;}
+    html, body{padding: 0; margin:0; background-color: #262626; font-family: 'Open Sans'}
+      h2{color:#fff; text-align: center; padding: none; }
       p{color: #5d5d5d; text-align: right; padding-right: 30px;}
       #loginbutton{background-color: #898989; border-radius: 8px; border-color: white; padding: 3px 18px; box-shadow: none; color:white;}
       #buttonleft{background-color: #f5f5f5; border-radius: 6px; border-color: #777777; border-width: 1px; padding:15px 30px; font-size: 20px; color: #5e5d5d; margin-left: 60px; margin-bottom: 40px;}
       #buttonright{background-color: #f5f5f5; border-radius: 6px; border-color: #777777; border-width: 1px; padding:15px 30px; font-size: 20px; color: #5e5d5d; margin-right: 60px; float: right;}
-      #btnleft{float:right; margin-right: 50px;}
-      #btnright{float:right; margin-right: 50px;}
+
+      #btnleft{float:right; margin-right: 50px; padding-top: 10px; margin-top:130px;}
+      #btnright{float:right; margin-right: 15%; margin-top: 100px;}
+
       #map{ position: absolute !important; width: 40%; height: 70%; margin-top: 150px; z-index: -10; margin-left: 15%;}
 
       /* The Modal (background) */
@@ -113,11 +117,15 @@ function addSomeMarkers() {
       .close:hover,.close:focus {color: #000;text-decoration: none;cursor: pointer;}
 
       h3 {text-align: center;}
-      button{width: 200px;height: 50px;margin: 50px 0;background: #3498db;border: none;color: #fff;font-size: 14px;font-weight: bold;border-radius: 5px;}
-      button#loginbtn {display: block;background: #3498db;color: #fff;margin-left: 29%;}
-      button#loginbtn:hover {background: #2980b9;color: #1b5377;}
-      button#logoutbtn {display:none;} 
-    
+      button{background: #3498db;border: none;color: #fff;font-size: 14px;font-weight: bold;border-radius: 5px;}
+      button#loginbtn {width: 200px;height: 50px;margin: 50px 0;display: block;background: #3498db;color: #fff;margin-left: 29%;}
+      button:hover {background: #2980b9;color: #1b5377;}
+      button#logoutbtn {display:none; float: left;} 
+      .btn {margin-top:45px; width: 150px; height:40px;}
+
+      #status {float:left; padding-right: 10px; margin-left:15%; color:#fff; font-size: 18px}
+
+      #chat{height:25px; ;line-height:1; position: fixed; width:100%; bottom: 0; left:0; padding: 0 5px; z-index: 10; background: #1e1e1e; text-decoration: none; padding-top:13px; color:white; padding-left: 20px; font-size: 9pt;}
 
 </style>
 
@@ -128,25 +136,26 @@ function addSomeMarkers() {
     <div id="coords"></div>
 
     <div id="btnright">
-    <button type="button">Dashborad</button>
+    <button class="btn" type="button">Dashborad</button>
     <br>
-    <button type="button">User1 <br>What they read</button>
+    <button class="btn" type="button">User1 <br>What they read</button>
     <br>
-    <button type="button">User2 <br>What they read</button>
+    <button class="btn" type="button">User2 <br>What they read</button>
     <br>
-    <button type="button">User3 <br>What they read</button>
+    <button class="btn" type="button">User3 <br>What they read</button>
     </div>
 
     <div id="btnleft">
-    <button type="button"><input type="checkbox" name="option1" value="category1"> Category1</button>
+    <button class="btn" type="button"><input type="checkbox" name="option1" value="category1"> Category1</button>
     <br>
-    <button type="button"><input type="checkbox" name="option2" value="category2"> Category2</button>
+    <button class="btn" type="button"><input type="checkbox" name="option2" value="category2"> Category2</button>
     <br>
-    <button type="button"><input type="checkbox" name="option3" value="category3"> Category3</button>
+    <button class="btn" type="button"><input type="checkbox" name="option3" value="category3"> Category3</button>
     </div>
-    
-  <a href="chat/chat.php">Chatroom</a>
 
+
+    
+<a id="chat" href="chat/chat.php">Chatroom</a>
 </body>
 </html>
 </html>
