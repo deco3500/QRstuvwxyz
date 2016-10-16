@@ -55,25 +55,65 @@ function initialize() {
         var options = {
           //sky: false,
           atmosphere: false,
+
+
+         
+
           dragging: true,
-          tilting: true,
+          tilting: false,
           zooming: true,
-          center: [46.8011, 8.2266],
+          center: [1.0592701, 122.1097943],
           zoom: 2,
           scrollWheelZoom: true,
+
+
         };
-        earth = new WE.map('map', options);
+
+        earth = new WE.map('earth', options);
         var natural = WE.tileLayer('http://data.webglearth.com/natural-earth-color/{z}/{x}/{y}.jpg', {
           tileSize: 256,
           tms: true
         });
         natural.addTo(earth);
 
-        var marker = WE.marker([51.5, -0.09]).addTo(earth);
-        marker.bindPopup("<b>Hello world!</b><br>I am a popup.<br /><span style='font-size:10px;color:#999'>Tip: Another popup is hidden in Cairo..</span>", {maxWidth: 150, closeButton: true}).openPopup();
+        var marker1 = WE.marker([51.5, -0.09]).addTo(earth);
+        marker1.bindPopup("<b>London</b><br>Breaking News", {maxWidth: 120, closeButton: true});
 
         var marker2 = WE.marker([30.058056, 31.228889]).addTo(earth);
-        marker2.bindPopup("<b>Cairo</b><br>Yay, you found me!", {maxWidth: 120, closeButton: false});
+        marker2.bindPopup("<b>Cairo</b><br>Cairo News", {maxWidth: 120, closeButton: true});
+
+        var marker3 = WE.marker([-33.9135298, 18.095567]).addTo(earth);
+        marker3.bindPopup("<b>Capetown</b><br>Capetown News", {maxWidth: 120, closeButton: true});
+
+        var marker4 = WE.marker([13.7244425, 100.3529034]).addTo(earth);
+        marker4.bindPopup("<b>Bangkok</b><br>BKK News<br>", {maxWidth: 120, closeButton: true});
+
+        var marker5 = WE.marker([22.3574371, 113.8408135]).addTo(earth);
+        marker5.bindPopup("<b>Hong Kong</b><br>Hong Kong News", {maxWidth: 120, closeButton: true});
+
+        var marker6 = WE.marker([22.3574371, 22.3574371]).addTo(earth);
+        marker6.bindPopup("<b>Hong Kong</b><br>Hong Kong News", {maxWidth: 120, closeButton: true});
+
+        var marker7 = WE.marker([40.705311, -74.2581977]).addTo(earth);
+        marker7.bindPopup("<b>New York City</b><br>NYC News", {maxWidth: 120, closeButton: true});
+
+        var marker8 = WE.marker([34.0201812, -118.6919312]).addTo(earth);
+        marker8.bindPopup("<b>Los Angeles</b><br>LA News", {maxWidth: 120, closeButton: true});
+
+        var marker9 = WE.marker([-27.3810232, 152.4326883]).addTo(earth);
+        marker9.bindPopup("<b>Brisbane</b><br>BNE News", {maxWidth: 120, closeButton: true});
+
+        var marker10 = WE.marker([-32.0388311, 115.4010385]).addTo(earth);
+        marker10.bindPopup("<b>Sydney</b><br>SYD News", {maxWidth: 120, closeButton: true});
+
+        var marker11 = WE.marker([-37.9712368, 144.4926542]).addTo(earth);
+        marker11.bindPopup("<b>Melbourne</b><br>MEL News", {maxWidth: 120, closeButton: true});
+
+        var marker12 = WE.marker([34.0201812, -118.6919312]).addTo(earth);
+        marker12.bindPopup("<b>Perth</b><br>PER News", {maxWidth: 120, closeButton: true});
+
+        var marker13 = WE.marker([1.3147268,103.7069291]).addTo(earth);
+        marker13.bindPopup("<b>Singapore</b><br>SNG News", {maxWidth: 120, closeButton: true});
 
         var markerCustom = WE.marker([50, -9], '/img/logo-webglearth-white-100.png', 100, 24).addTo(earth);
 
@@ -89,9 +129,9 @@ function initialize() {
 function addSomeMarkers() {
         document.getElementById('addmarkers').disabled = true;
 
-        map.setView([51.505, 0], 5);
+        earth.setView([51.505, 0], 5);
         var marker = WE.marker([51.5, -0.09]).addTo(map);
-        marker.bindPopup("<b>Hello world!</b><br>I am a popup.<br /><span style='font-size:10px;color:#999'>Tip: Another popup is hidden in Cairo..</span>", {maxWidth: 150, closeButton: true}).openPopup();
+        marker.bindPopup("", {maxWidth: 150, closeButton: true}).openPopup();
 
              };
       </script>
@@ -108,7 +148,7 @@ function addSomeMarkers() {
       #btnleft{float:right; margin-right: 50px; padding-top: 10px; margin-top:130px;}
       #btnright{float:right; margin-right: 15%; margin-top: 100px;}
 
-      #map{ position: absolute !important; width: 40%; height: 70%; margin-top: 150px; z-index: -10; margin-left: 15%;}
+      #earth{ position: absolute !important; width: 40%; height: 70%; margin-top: 150px; z-index: -10; margin-left: 15%;}
 
       /* The Modal (background) */
       .modal {display: none;position: fixed; z-index: 1; padding-top: 100px; left: 0; top: 0; width: 100;height: 100%; overflow: auto; background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4); }
@@ -133,7 +173,7 @@ function addSomeMarkers() {
 
 <body onload="initialize()">
 
-    <div id="map"></div>
+    <div id="earth"></div>
     <div id="coords"></div>
 
     <div id="btnright">
