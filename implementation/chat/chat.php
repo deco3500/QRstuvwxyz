@@ -84,7 +84,7 @@
 
     <div id="page-wrap">
     
-        <h2>jQuery/PHP Chat</h2>
+        <h2>Group Chat</h2>
         
         <p id="name-area"></p>
         

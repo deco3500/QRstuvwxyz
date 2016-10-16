@@ -1,5 +1,5 @@
 *                               { margin: 0; padding: 0; }
-body                            { font: 12px "Lucida Grande", Sans-Serif; background: url(images/bg.png); }
+body                            { font: 12px "Lucida Grande", Sans-Serif; }
 h2                              { color: #fa9f00; font: 30px Helvetica, Sans-Serif; margin: 0 0 10px 0; }
 #page-wrap                      { width: 500px; margin: 30px auto; position: relative; }
 
@@ -11,5 +11,5 @@ h2                              { color: #fa9f00; font: 30px Helvetica, Sans-Ser
 #name-area                      { position: absolute; top: 12px; right: 0; color: white; font: bold 12px "Lucida Grande", Sans-Serif; text-align: right; }   
 #name-area span                 { color: #fa9f00; }
 
-#send-message-area p            { float: left; color: white; padding-top: 27px; font-size: 14px; }
+#send-message-area p            { float: left; color: black; padding-top: 27px; font-size: 14px; }
 #sendie                         { border: 3px solid #999; width: 360px; padding: 10px; font: 12px "Lucida Grande", Sans-Serif; float: right; }
