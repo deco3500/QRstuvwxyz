@@ -84,7 +84,7 @@ body {
     font-size: 20px;
     height: 100%;
     min-height: 100%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 
@@ -125,3 +125,40 @@ body {
 	    width: 400px;
 	}
 
+/* ARTICLE PAGE */
+
+.article_title{
+    display: inline;
+    vertical-align: middle;
+    padding-right: 50%;
+}
+
+.article_nav{
+    text-align: right;
+    vertical-align: middle;
+}
+
+
+#header{
+    width: 96%;
+    border: solid black 5px;
+    background-color: grey;
+}
+
+#news_image{
+    margin-top: 5%;
+    width: 65%;
+    height: 60%;
+    border: solid black 5px;
+    background-color: grey;
+    border: solid, black, 5px;
+}
+
+.centre{
+    text-align: center;
+}
+
+#news_article{
+    margin-top: 5%;
+    width: 65%;
+}
