@@ -1,4 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!Reference:https://css-tricks.com/jquery-php-chat/>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -94,8 +95,11 @@
             <p>Your message: </p>
             <textarea id="sendie" maxlength = '100' ></textarea>
         </form>
-    
+    <br>
     </div>
+	<div id="goback">
+<center> <a href='../login.html'>Go back to Home page </a></center>
+	</div>
 
 </body>
 

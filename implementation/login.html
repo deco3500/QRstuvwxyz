@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- Base libraries to be included in every page -->
+<meta charset="utf-8">
 <link rel="stylesheet" href="http://localhost/~rubylee/css/style.css">
-<link rel="stylesheet" href="styles/facebookchat.css">
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 <script src="http://localhost/~rubylee/js/loginpopup.js"></script>
 <script src="http://localhost/~rubylee/js/facebooklogin.js"></script>
@@ -13,7 +14,34 @@
 <script src="http://www.webglearth.com/v2/api.js"></script>
 
 
+<!-- Load Scripts -->
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="styles/chatboxstyle.css"> 
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </head>
+<script type="text/javascript">
+
+$(function(){
+$("#addClass1,#addClass2,#addClass3,#addClass4,#addClass5,#addClass6,#addClass7,#addClass8,#addClass9,#addClass10,#addClass11,#addClass12,#addClass13,#addClass14").click(function () {
+          $('#qnimate').addClass('popup-box-on');
+            });
+          
+            $("#removeClass").click(function () {
+          $('#qnimate').removeClass('popup-box-on');
+            });
+  })
+  
+ 
+</script>
 <header >
 
 <h2>Spinning News</h2> 
@@ -21,7 +49,213 @@
 <div id="status">
 </div>
 <a href="myprofile.html"><button>My Profile</button></a>
+<h1> List of chat rooms</h1>
 <button id="logoutbtn" type="button" onclick="fblogout();">Logout</button>
+<!--- Chatbox Reference:http://bootsnipp.com/snippets/featured/open-in-chat-popup-box-chat-popup--->
+	 <div class="col-md-4">	
+			<!---<div class="chatbox">
+				<img width="30" height="30" src="" />
+				<a href="#" id="addClass1"> Website admin </a>	
+			</div>--->
+			<div class="chatbox">
+				<!-- Pass username and display name to register popup -->
+				<a href="#" id="addClass2">
+					<img width="50" height="50" src="images/london.jpg" />
+					<span>London</span>
+				</a>
+			</div>
+			<div class="chatbox">
+				<a href="#" id="addClass3">
+					<img width="50" height="50" src="images/cairo.jpg" />
+					<span>Cairo</span>
+				</a>
+			</div>
+			<div class="chatbox">
+				<a href="#" id="addClass4">
+					<img width="50" height="50" src="images/capetown.jpg" />
+					<span>Capetown</span>
+				</a>
+			</div>
+			<div class="chatbox">
+				<a href="#" id="addClass5">
+					<img width="50" height="50" src="images/bangkok.jpg" />
+					<span>Bangkok</span>
+				</a>
+			</div>
+			<div class="chatbox">
+				<a href="#" id="addClass6">
+					<img width="50" height="50" src="images/hongkong.jpg" />
+					<span>Hong Kong</span>
+				</a>
+			</div>
+			<div class="chatbox">
+				<a href="#" id="addClass7">
+					<img width="50" height="50" src="images/toronto.jpg" />
+					<span>Toronto</span>
+				</a>
+			</div>
+			<div class="chatbox">
+				<a href="#" id="addClass8">
+					<img width="50" height="50" src="images/newyork.jpg" />
+					<span>New York City</span>
+				</a>
+			</div>
+			<div class="chatbox">
+				<a href="#" id="addClass9">
+					<img width="50" height="50" src="images/losangeles.jpg" />
+					<span>Los Angeles</span>
+				</a>
+			</div>
+			<div class="chatbox">
+				<a href="#" id="addClass10">
+					<img width="50" height="50" src="images/brisbane.jpg" />
+					<span>Brisbane</span>
+				</a>
+			</div>
+			<div class="chatbox">
+				<a href="#" id="addClass11">
+					<img width="50" height="50" src="images/sydney.jpg" />
+					<span>Sydney</span>
+				</a>
+			</div>
+			<div class="schatbox">
+				<a href="#" id="addClass12">
+					<img width="50" height="50" src="images/melbourne.jpg" />
+					<span>Melbourne</span>
+				</a>
+			</div>
+			<div class="chatbox">
+				<a href="#" id="addClass13">
+					<img width="50" height="50" src="images/perth.jpg" />
+					<span>Perth</span>
+				</a>
+			</div>
+			<div class="chatbox">
+				<a href="#" id="addClass14">
+					<img width="50" height="50" src="images/singapore.jpg" />
+					<span>Singapore</span>
+				</a>
+			</div>
+	</div>
+
+
+	
+<div class="popup-box chat-popup" id="qnimate">
+    		  <div class="popup-head">
+				<div class="popup-head-left pull-left"><img src="images/fimage.jpg"> News headlines</div>
+					  <div class="popup-head-right pull-right">
+						<div class="btn-group">
+    								  <button class="chat-header-button" data-toggle="dropdown" type="button" aria-expanded="false">
+									   <i class="glyphicon glyphicon-cog"></i> </button>
+									  <ul role="menu" class="dropdown-menu pull-right">
+										<li><a href="#">Media</a></li>
+										<li><a href="#">Block</a></li>
+										<li><a href="#">Clear Chat</a></li>
+										<li><a href="#">Email Chat</a></li>
+									  </ul>
+						</div>
+						
+						<button data-widget="remove" id="removeClass" class="chat-header-button pull-right" type="button"><i class="glyphicon glyphicon-off"></i></button>
+                      </div>
+			  </div>
+			<div class="popup-messages">
+    		
+			
+			
+			
+			<div class="direct-chat-messages">
+                    
+					
+					<div class="chat-box-single-line">
+								<abbr class="timestamp">October 20th, 2016</abbr>
+					</div>
+					
+					
+						<!-- Message. Default to the left -->
+                    <div class="direct-chat-msg doted-border">
+                      <div class="direct-chat-info clearfix">
+                        <span class="direct-chat-name pull-left">Bryan</span>
+                      </div>
+                      <!-- /.direct-chat-info -->
+                      <img alt="iamgurdeeposahan" src="images/mimage.jpg" class="direct-chat-img"><!-- /.direct-chat-img -->
+                      <div class="direct-chat-text">
+                        Hey, What do you think about the news ?
+                      </div>
+					  <div class="direct-chat-info clearfix">
+                        <span class="direct-chat-timestamp pull-right">3.37 PM</span>
+                      </div>
+						<div class="direct-chat-info clearfix">
+						  <img alt="iamgurdeeposahan" src="images/fimage.jpg" class="direct-chat-img big-round">
+						<span class="direct-chat-reply-name">Victoria</span>
+						</div>
+                      <!-- /.direct-chat-info -->
+                      <div class="direct-chat-text">
+                          I'll tell you after I've read the article!
+                      </div>
+					  <div class="direct-chat-info clearfix">
+                        <span class="direct-chat-timestamp pull-right">3.38 PM</span>
+                      </div>
+					  <div class="direct-chat-info clearfix">
+						  <img alt="iamgurdeeposahan" src="images/fimage.jpg" class="direct-chat-img big-round">
+						<span class="direct-chat-reply-name">Toy</span>
+					  </div>
+					    <div class="direct-chat-text">
+                        Hey, What do you think about the news ?
+                      </div>
+					  <div class="direct-chat-info clearfix">
+                        <span class="direct-chat-timestamp pull-right">3.39 PM</span>
+                      </div>
+					  <div class="direct-chat-info clearfix">
+						  <img alt="iamgurdeeposahan" src="images/mimage.jpg" class="direct-chat-img big-round">
+						<span class="direct-chat-reply-name">Me</span>
+					  </div>
+					    <div class="direct-chat-text">
+                        Hey, What do you think about the news ?
+                      </div>
+					  <div class="direct-chat-info clearfix">
+                        <span class="direct-chat-timestamp pull-right">3.40 PM</span>
+                      </div>
+					  <div class="direct-chat-info clearfix">
+						  <img alt="iamgurdeeposahan" src="images/fimage.jpg" class="direct-chat-img big-round">
+						<span class="direct-chat-reply-name">TszLam</span>
+					  </div>
+					    <div class="direct-chat-text">
+                        I'll tell you after I've read the article!
+                      </div>
+					  <div class="direct-chat-info clearfix">
+                        <span class="direct-chat-timestamp pull-right">3.41 PM</span>
+                      </div>
+					</div>
+                      <!-- /.direct-chat-text -->
+            </div>
+                    <!-- /.direct-chat-msg -->
+					
+					
+					
+                    
+
+                    
+
+                  </div>
+			
+			
+			
+			
+			
+			
+			
+			
+
+			<div class="popup-messages-footer">
+			<textarea id="status_message" placeholder="Type a message..." rows="10" cols="40" name="message"></textarea>
+			<div class="btn-footer">
+			<button class="bg_none"><i class="glyphicon glyphicon-film"></i> </button>
+			<button class="bg_none"><i class="glyphicon glyphicon-camera"></i> </button>
+            <button class="bg_none"><i class="glyphicon glyphicon-paperclip"></i> </button>
+			<button class="bg_none pull-right"><i class="glyphicon glyphicon-thumbs-up"></i> </button>
+			</div>
+			</div>
+	  </div>
 
 
 <!-- The Modal -->
@@ -136,128 +370,7 @@ function addSomeMarkers() {
 
              };
 </script>
-<script>
-     
 
-	//this function can remove a array element.
-	Array.remove = function(array, from, to) {
-		var rest = array.slice((to || from) + 1 || array.length);
-		array.length = from < 0 ? array.length + from : from;
-		return array.push.apply(array, rest);
-	};
-
-	//this variable represents the total number of popups can be displayed according to the viewport width
-	var total_popups = 0;
-	
-	//arrays of popups ids
-	var popups = [];
-
-	//this is used to close a popup
-	function close_popup(id)
-	{
-		for(var iii = 0; iii < popups.length; iii++)
-		{
-			if(id == popups[iii])
-			{
-				Array.remove(popups, iii);
-				
-				document.getElementById(id).style.display = "none";
-				
-				calculate_popups();
-				
-				return;
-			}
-		}	
-	}
-
-	//displays the popups. Displays based on the maximum number of popups that can be displayed on the current viewport width
-	function display_popups()
-	{
-		var right = 220;
-		
-		var iii = 0;
-		for(iii; iii < total_popups; iii++)
-		{
-			if(popups[iii] != undefined)
-			{
-				var element = document.getElementById(popups[iii]);
-				element.style.right = right + "px";
-				right = right + 320;
-				element.style.display = "block";
-			}
-		}
-		
-		for(var jjj = iii; jjj < popups.length; jjj++)
-		{
-			var element = document.getElementById(popups[jjj]);
-			element.style.display = "none";
-		}
-	}
-	
-	//creates markup for a new popup. Adds the id to popups array.
-	function register_popup(id, name)
-	{
-		
-		for(var iii = 0; iii < popups.length; iii++)
-		{	
-			//already registered. Bring it to front.
-			if(id == popups[iii])
-			{
-				Array.remove(popups, iii);
-			
-				popups.unshift(id);
-				
-				calculate_popups();
-				
-				
-				return;
-			}
-		}				
-		
-		var element = '<div class="popup-box chat-popup" id="'+ id +'">';
-		element = element + '<div class="popup-head">';
-		element = element + '<div class="popup-head-left">'+ name +'</div>';
-		element = element + '<div class="popup-head-right"><a href="javascript:close_popup(\''+ id +'\');">&#10005;</a></div>';
-		element = element + '<div style="clear: both"></div></div><div class="popup-messages"><div>Your message:</div>';
-		element = element + '<div>Your message:</div>';
-		element = element + '<textarea></textarea>';
-    element = element + '<img>';
-    element = element + '<a></a>';
-		
-		
-		
-		document.getElementsByTagName("body")[0].innerHTML = document.getElementsByTagName("body")[0].innerHTML + element;	
-
-		popups.unshift(id);
-				
-		calculate_popups();
-		
-	}
-	
-	//calculate the total number of popups suitable and then populate the toatal_popups variable.
-	function calculate_popups()
-	{
-		var width = window.innerWidth;
-		if(width < 540)
-		{
-			total_popups = 0;
-		}
-		else
-		{
-			width = width - 200;
-			//320 is width of a single popup box
-			total_popups = parseInt(width/320);
-		}
-		
-		display_popups();
-		
-	}
-	
-	//recalculate when window is loaded and also when window is resized.
-	window.addEventListener("resize", calculate_popups);
-	window.addEventListener("load", calculate_popups);
-	
-</script>
 
 
 <style>
@@ -281,7 +394,7 @@ function addSomeMarkers() {
       .close:hover,.close:focus {color: #000;text-decoration: none;cursor: pointer;}
 
       h3 {text-align: center;}
-      button{background: #3498db;border: none;color: #fff;font-size: 14px;font-weight: bold;border-radius: 5px;}
+      button{background: #3498db;border: none;color: #000000;font-size: 14px;font-weight: bold;border-radius: 5px;}
       button#loginbtn {width: 200px;height: 50px;margin: 50px 0;display: block;background: #3498db;color: #fff;margin-left: 29%;}
       button:hover {background: #2980b9;color: #1b5377;}
       button#logoutbtn {display:none; float: left;} 
@@ -289,13 +402,12 @@ function addSomeMarkers() {
 
       #status {float:left; padding-right: 10px; margin-left:15%; color:#fff; font-size: 18px}
 
-      #chat{height:25px; ;line-height:1; position: fixed; width:100%; bottom: 0; left:0; padding: 0 5px; z-index: 10; background: #1e1e1e; text-decoration: none; padding-top:13px; color:white; padding-left: 20px; font-size: 9pt;}
+      #chat{height:30px; ;line-height:0.5; position:fixed; bottom: 0; left:0; padding: 0 10px 10px 0; z-index: 10; text-decoration: none; padding-top:13px; color:white; padding-left: 15px ; font-size: 10pt;}
 
 </style>
-
-
 <body onload="initialize()">
 
+	
     <div id="earth"></div>
 
     <div id="btnright">
@@ -315,49 +427,13 @@ function addSomeMarkers() {
     <br>
     <button class="btn" type="button"><input type="checkbox" name="option3" value="category3"> Category3</button>
     </div>
-	<div class="chat-sidebar">
-			<div class="sidebar-name">
-				<!-- Pass username and display name to register popup -->
-				<a href="javascript:register_popup('narayan-prusty', 'Narayan Prusty');">
-					<img width="30" height="30" src="" />
-					<span>Narayan Prusty</span>
-				</a>
-			</div>
-			<div class="sidebar-name">
-				<a href="javascript:register_popup('qnimate', 'QNimate');">
-					<img width="30" height="30" src="" />
-					<span>QNimate</span>
-				</a>
-			</div>
-			<div class="sidebar-name">
-				<a href="javascript:register_popup('qscutter', 'QScutter');">
-					<img width="30" height="30" src="" />
-					<span>QScutter</span>
-				</a>
-			</div>
-			<div class="sidebar-name">
-				<a href="javascript:register_popup('qidea', 'QIdea');">
-					<img width="30" height="30" src="" />
-					<span>QIdea</span>
-				</a>
-			</div>
-			<div class="sidebar-name">
-				<a href="javascript:register_popup('qazy', 'QAzy');">
-					<img width="30" height="30" src="" />
-					<span>QAzy</span>
-				</a>
-			</div>
-			<div class="sidebar-name">
-				<a href="javascript:register_popup('qblock', 'QBlock');">
-					<img width="30" height="30" src="" />
-					<span>QBlock</span>
-				</a>
-			</div>
-		</div>
+	
+	
+		
+<div class="round hollow">       
+<a id="chat" href="chat/chat.php">Group Chatroom </a>	       
+<div>       
 
-
-    
-<a id="chat" href="chat/chat.php">Chatroom</a>
-</body>
+</body> 
 </html>
 </html>

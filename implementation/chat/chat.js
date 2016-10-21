@@ -1,4 +1,5 @@
 /* 
+Reference:https://css-tricks.com/jquery-php-chat/
 Created by: Kenrick Beckett
 
 Name: Chat Engine

@@ -1,5 +1,5 @@
 <?php
-
+/*Reference: https://css-tricks.com/jquery-php-chat/*/
     $function = $_POST['function'];
     
     $log = array();
