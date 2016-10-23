@@ -5,6 +5,9 @@ body
 {
     font-family: 'Open Sans', sans-serif;
     }
+.chatbox{
+	width: 150px;
+}
 .popup-box {
    background-color: #ffffff;
     border: 1px solid #b0b0b0;
@@ -12,7 +15,7 @@ body
     display: none;
     height: 415px;
     position: fixed;
-    right: 70px;
+    right: 90px;
     width: 300px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -305,3 +308,4 @@ body
     padding: 5px 10px;
     position: relative;
 }
+
