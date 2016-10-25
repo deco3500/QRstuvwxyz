@@ -117,7 +117,7 @@ $("#addClass1,#addClass2,#addClass3,#addClass4,#addClass5,#addClass6,#addClass7,
 					<span>Brisbane</span>
 				</a>
 			</div>
-			<div class="chatbox">
+			<!--<div class="chatbox">
 				<a href="#" id="addClass11">
 					<img width="50" height="50" src="images/sydney.jpg" />
 					<span>Sydney</span>
@@ -140,7 +140,7 @@ $("#addClass1,#addClass2,#addClass3,#addClass4,#addClass5,#addClass6,#addClass7,
 					<img width="50" height="50" src="images/singapore.jpg" />
 					<span>Singapore</span>
 				</a>
-			</div>
+			</div>-->
 	</div>
 
 
@@ -407,11 +407,12 @@ function addSomeMarkers() {
       button#logoutbtn {display:none; float: left; margin-left: 10px;} 
       button#sloginbtn {display:block;}
       button#myprofile {display:block; float:left;}
+      button#chatbtn {background: #000; height:20px; margin-bottom: 2%;}
       .btn {margin-top:45px; width: 150px; height:40px; margin-left: 10px;}
 
       #status {float:left; padding-right: 10px; margin-left:15%; color:#fff; font-size: 18px}
 
-      #chat{height:30px; ;line-height:0.5; position:fixed; bottom: 0; left:0; padding: 0 10px 10px 0; z-index: 10; text-decoration: none; padding-top:13px; color:white; padding-left: 15px ; font-size: 10pt;}
+      #chat{height:30px; ;line-height:0.5; position:fixed; bottom: 0; left:0; padding: 0 10px 10px 0; z-index: 10; text-decoration: none; padding-top:13px; color:white; padding-left: 15px ; padding-bottom: 10px; font-size: 10pt;}
 
 </style>
 <body onload="initialize()">
@@ -442,9 +443,9 @@ function addSomeMarkers() {
 	-->
 	
 		
-<div class="round hollow">       
-<a id="chat" href="chat/chat.php">Group Chatroom </a>	       
-<div>       
+    
+<a id="chat" href="chat/chat.php"><button id="chatbtn">Group Chatroom</button></a>    
+
 
 </body> 
 </html>
