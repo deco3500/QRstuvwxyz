@@ -141,8 +141,8 @@ $("#addClass1,#addClass2,#addClass3,#addClass4,#addClass5,#addClass6,#addClass7,
 					<span>Singapore</span>
 				</a>
 			</div>-->
-	
 	</div>
+
 
 	
 <div class="popup-box chat-popup" id="qnimate">
@@ -380,7 +380,7 @@ function addSomeMarkers() {
 
 
 <style>
-    html, body{padding: 0; margin:0; background-color: #262626; font-family: 'Open Sans'}
+    html, body{padding: 0; margin:0; background-color: #262626; font-family: arial}
       h2{color:#fff; text-align: center; padding: none; }
       h4{color:#fff; margin-left:2px;}
       p{color: #5d5d5d; text-align: right; padding-right: 30px;}
@@ -407,12 +407,14 @@ function addSomeMarkers() {
       button#logoutbtn {display:none; float: left; margin-left: 10px;} 
       button#sloginbtn {display:block;}
       button#myprofile {display:block; float:left;}
-      button#chatbtn {background: #000; height:20px; margin-bottom: 2%;}
+      
       .btn {margin-top:45px; width: 150px; height:40px; margin-left: 10px;}
 
       #status {float:left; padding-right: 10px; margin-left:15%; color:#fff; font-size: 18px}
 
-      #chat{height:30px; ;line-height:0.5; position:fixed; bottom: 0; left:0; padding: 0 10px 10px 0; z-index: 10; text-decoration: none; padding-top:13px; color:white; padding-left: 15px ; padding-bottom: 10px; font-size: 10pt;}
+      #chat{height:25px; ;line-height:1; position: fixed; width:100%; bottom: 0; left:0; padding: 0 5px; z-index: 10; background: #262626; text-decoration: none; padding-top:2px; color:white; padding-left: 20px; font-size: 9pt;}
+
+      button#chatbtn {background: #000; height:20px; margin-bottom: 2%;}
 
 </style>
 <body onload="initialize()">
@@ -444,9 +446,8 @@ function addSomeMarkers() {
 	
 		
     
-<a id="chat" href="chat/chat.php"><button id="chatbtn">Group Chatroom</button></a>    
+<a id="chat" href="localhost/~rubylee/chat/chat.php" target="_blank"><button id="chatbtn">Group Chatroom</button></a>    
 
-</div>
 
 </body> 
 </html>

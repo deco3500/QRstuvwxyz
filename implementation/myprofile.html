@@ -3,10 +3,11 @@
 <head>
 <link rel="stylesheet" href="http://localhost/~rubylee/css/style.css">
 <script src="https://apis.google.com/js/platform.js" async defer></script>
-<script src="http://localhost/~rubylee/js/loginpopup.js"></script>
-<script src="http://localhost/~rubylee/js/facebooklogin.js"></script>
+<script src="js/loginpopup.js"></script>
+<script src="js/facebooklogin.js"></script>
 
 <script src="js/globe.js"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="js/jquery.js"></script>
 <script src="http://www.webglearth.com/v2/api.js"></script>
@@ -19,7 +20,7 @@
 
 <div id="status">
 </div>
-<a href="myprofile.html"><button>My Profile</button></a>
+<a href="login.html"><button id="backtoglobe">Back to globe</button></a>
 <button id="logoutbtn" type="button" onclick="fblogout();">Logout</button>
 
 <!-- The Modal -->
@@ -42,8 +43,9 @@
 
 
 <style>
-    html, body{padding: 0; margin:0; background-color: #262626; font-family: 'Open Sans'}
+    html, body{padding: 0; margin:0; background-color: #262626; font-family: arial}
       h2{color:#fff; text-align: center; padding: none; }
+      h3#headding {color:#fff; text-align: left; margin-left: 10%;}
       p{color: #5d5d5d; text-align: left; padding-left: 10px;}
       #loginbutton{background-color: #898989; border-radius: 8px; border-color: white; padding: 3px 18px; box-shadow: none; color:white;}
 
@@ -64,7 +66,7 @@
       #map{ position: absolute !important; width: 40%; height: 70%; margin-top: 150px; z-index: -10; margin-left: 15%;}
 
       /* The Modal (background) */
-      .modal {display: none;position: fixed; z-index: 1; padding-top: 100px; left: 0; top: 0; width: 100;height: 100%; overflow: auto; background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4); }
+      .modal {display: none;position: fixed; z-index: 1; padding-top: 100px; left: 0; top: 0; width: 100%;height: 100%; overflow: auto; background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4); }
 
       .modal-content {background-color: #fefefe;margin: auto;padding: 20px;border: 1px solid #888;width: 40%;}
       .close {color: #aaaaaa;float: right;font-size: 28px;font-weight: bold;}
@@ -76,32 +78,35 @@
       button#loginbtn {width: 200px;height: 50px;margin: 50px 0;display: block;background: #3498db;color: #fff;margin-left: 29%;}
       button:hover {background: #2980b9;color: #1b5377;}
       button#logoutbtn {display:none; float: left;} 
+      button#backtoglobe{margin-left: 10px;}
       .btn {margin-top:-40px; width: 150px; height:40px;float: right; margin-right: 30px; margin-bottom: 10px;}
 
       #status {float:left; padding-right: 10px; margin-left:15%; color:#fff; font-size: 18px}
 
-      #chat{height:25px; ;line-height:1; position: fixed; width:100%; bottom: 0; left:0; padding: 0 5px; z-index: 10; background: #1e1e1e; text-decoration: none; padding-top:13px; color:white; padding-left: 20px; font-size: 9pt;}
+      #chat{height:25px; ;line-height:1; position: fixed; width:100%; bottom: 0; left:0; padding: 0 5px; z-index: 10; background: #262626; text-decoration: none; padding-top:2px; color:white; padding-left: 20px; font-size: 9pt;}
 
-      article.accordion{display: block;width: 33.5%;padding: 0.5em 0.5em 1px 0.5em;margin-left: 800px; margin-right:100px; margin-top: -1450px;background-color: #666;border-radius: 5px;box-shadow: 0 3px 3px rgba(0,0,0,0.3);height: auto;float: right;}
+      button#chatbtn {background: #000; height:20px; margin-bottom: 2%;}
 
-      article.accordion section{display: block;width: 28em;height: 2em;padding: 0 1em;margin: 0 0 0.5em 0;color: #333;background-color: #333;overflow: hidden;border-radius: 3px;}
+      
 
-      article.accordion section h2{font-size: 1em;font-weight: bold;width: 100%;line-height: 2em;padding: 0;margin: 0;color: #ddd;}
 
-      article.accordion section h2 a{display: block;width: 100%;line-height: 2em;text-decoration: none;color: inherit;outline: 0 none;}
+      button.accordion#top {margin-top:50px;}
 
-      article.accordion section:target{height: 15em;background-color: #fff;}
+      button.accordion { margin-left: 70px; background-color: #eee; color: #444; cursor: pointer; padding:18px; width: 30%; border: none; text-align: left; outline: none; font-size: 15px; transition: 0.4s; border-radius: 5px; }
 
-      article.accordion section:target h2{font-size: 1.6em;color: #333;}
+      button.accordion.active, button.accordion:hover{background-color: #ddd;}
 
-      article.accordion section,article.accordion section h2{-webkit-transition: all 1s ease;-moz-transition: all 1s ease;-ms-transition: all 1s ease;-o-transition: all 1s ease;transition: all 1s ease;}
+      div.panel {margin-top: -3px; margin-right:133px; width:27%; padding:0 18px; background-color: white; max-height: 0; overflow: hidden; transition:0.6s ease-in-out; opacity:0;  border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; float:right;}
+
+      div.panel.show{opacity:1; max-height: 500px;}
 
 </style>
 
 <body>
 
   <div id = "timeline">
-    <h2>What I have read</h1>
+    <h2>My Profile</h2>
+    <h3 id="headding">What I have read</h3>
       <div id = "news">
         <h3>Clowns terrorise primary school students in scare craze</h3>
         <h6>OCTOBER 11, 20168:13AM Queensland news</h6>
@@ -157,14 +162,49 @@
         <h3>Username</h3>
         <h6></h6>
           <img id="userimg" src="image/user.png" alt="user" height="80%" width="80%">
-          <p>Hi this is username.
+          <p>Hi this is username. From Brisbane.
           </p>
-                <button class="btn" type="button">Follow</button>
+                
 
       </div>
     </div>
-    
-<article class="accordion">
+
+
+
+<button class="accordion" id="top">Following</button>
+<div class="panel">
+  <h4>2 followings</h4>
+    <div id="userinfo">
+      <a href = "myprofile.html">
+        <img id="userpic" src="image/snoopy.jpg" alt="user" height="20%" width="10%">
+      </a>
+      <p>You are following <a href = "myprofile.html">Snoopy</a></p>
+
+      <br>
+      <a href = "charlie.html">
+        <img id="userpic" src="image/charlie.png" alt="user" height="20%" width="10%">
+      </a>
+      <p>You are following <a href = "charlie.html">Charlie</a></p>
+
+  </div>
+</div>
+
+<button class="accordion">Follower</button>
+<div class="panel">
+  <h4>1 followers</h4>
+    <div id="userinfo">
+      <a href = "myprofile.html">
+        <img id="userpic" src="image/snoopy.jpg" alt="user" height="30%" width="15%">
+      </a>
+      <p><a href = "myprofile.html">Snoopy</a> is following you</p>
+      <br>
+    <div>
+</div>
+
+
+
+
+<!--<article class="accordion">
 
   <section id="acc1">
     <h2><a href="#acc1">Following</a></h2>
@@ -194,14 +234,25 @@
       <p><a href = "myprofile.html">Snoopy</a> is following you</p>
     <div>
   </section>
-  
-  
-
-</article>
+</article>-->
 
 
-    
-<a id="chat" href="chat/chat.php">Chatroom</a>
+<a id="chat" href="localhost/~rubylee/chat/chat.php" target="_blank"><button id="chatbtn">Group Chatroom</button></a>   
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+
 </body>
 </html>
 </html>
