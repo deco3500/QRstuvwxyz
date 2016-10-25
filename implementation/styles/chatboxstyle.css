@@ -9,6 +9,13 @@ body
 	width: 150px;
 	padding: 0px 0px 5px 0px;
 }
+
+
+#chatbutton{
+	color:black;
+}
+
+
 .popup-box {
    background-color: #ffffff;
     border: 1px solid #b0b0b0;
@@ -155,6 +162,7 @@ body
     font-size: 14px;
     height: 30px;
     width: 30px;
+	color:black;
 }
 .popup-head-right .btn-group .dropdown-menu {
     border: medium none;

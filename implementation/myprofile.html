@@ -19,7 +19,7 @@
 
 <div id="status">
 </div>
-<a href="login.html"><button id="backtoglobe">Back to globe</button></a>
+<a href="myprofile.html"><button>My Profile</button></a>
 <button id="logoutbtn" type="button" onclick="fblogout();">Logout</button>
 
 <!-- The Modal -->
@@ -42,9 +42,8 @@
 
 
 <style>
-    html, body{padding: 0; margin:0; background-color: #262626; font-family: arial}
+    html, body{padding: 0; margin:0; background-color: #262626; font-family: 'Open Sans'}
       h2{color:#fff; text-align: center; padding: none; }
-      h3#headding {color:#fff; text-align: left; margin-left: 10%;}
       p{color: #5d5d5d; text-align: left; padding-left: 10px;}
       #loginbutton{background-color: #898989; border-radius: 8px; border-color: white; padding: 3px 18px; box-shadow: none; color:white;}
 
@@ -65,7 +64,7 @@
       #map{ position: absolute !important; width: 40%; height: 70%; margin-top: 150px; z-index: -10; margin-left: 15%;}
 
       /* The Modal (background) */
-      .modal {display: none;position: fixed; z-index: 1; padding-top: 100px; left: 0; top: 0; width: 100%;height: 100%; overflow: auto; background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4); }
+      .modal {display: none;position: fixed; z-index: 1; padding-top: 100px; left: 0; top: 0; width: 100;height: 100%; overflow: auto; background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4); }
 
       .modal-content {background-color: #fefefe;margin: auto;padding: 20px;border: 1px solid #888;width: 40%;}
       .close {color: #aaaaaa;float: right;font-size: 28px;font-weight: bold;}
@@ -77,18 +76,15 @@
       button#loginbtn {width: 200px;height: 50px;margin: 50px 0;display: block;background: #3498db;color: #fff;margin-left: 29%;}
       button:hover {background: #2980b9;color: #1b5377;}
       button#logoutbtn {display:none; float: left;} 
-      button#backtoglobe{margin-left: 10px;}
       .btn {margin-top:-40px; width: 150px; height:40px;float: right; margin-right: 30px; margin-bottom: 10px;}
 
       #status {float:left; padding-right: 10px; margin-left:15%; color:#fff; font-size: 18px}
 
-      #chat{height:25px; ;line-height:1; position: fixed; width:100%; bottom: 0; left:0; padding: 0 5px; z-index: 10; background: #262626; text-decoration: none; padding-top:2px; color:white; padding-left: 20px; font-size: 9pt;}
-
-      button#chatbtn {background: #000; height:20px; margin-bottom: 2%;}
+      #chat{height:25px; ;line-height:1; position: fixed; width:100%; bottom: 0; left:0; padding: 0 5px; z-index: 10; background: #1e1e1e; text-decoration: none; padding-top:13px; color:white; padding-left: 20px; font-size: 9pt;}
 
       article.accordion{display: block;width: 33.5%;padding: 0.5em 0.5em 1px 0.5em;margin-left: 800px; margin-right:100px; margin-top: -1450px;background-color: #666;border-radius: 5px;box-shadow: 0 3px 3px rgba(0,0,0,0.3);height: auto;float: right;}
 
-      article.accordion section{display: block;width: 24.5em;height: 2em;padding: 0 1em;margin: 0 0 0.5em 0;color: #333;background-color: #333;overflow: hidden;border-radius: 3px;}
+      article.accordion section{display: block;width: 28em;height: 2em;padding: 0 1em;margin: 0 0 0.5em 0;color: #333;background-color: #333;overflow: hidden;border-radius: 3px;}
 
       article.accordion section h2{font-size: 1em;font-weight: bold;width: 100%;line-height: 2em;padding: 0;margin: 0;color: #ddd;}
 
@@ -105,8 +101,7 @@
 <body>
 
   <div id = "timeline">
-    <h2>My Profile</h2>
-    <h3 id="headding">What I have read</h3>
+    <h2>What I have read</h1>
       <div id = "news">
         <h3>Clowns terrorise primary school students in scare craze</h3>
         <h6>OCTOBER 11, 20168:13AM Queensland news</h6>
@@ -162,9 +157,9 @@
         <h3>Username</h3>
         <h6></h6>
           <img id="userimg" src="image/user.png" alt="user" height="80%" width="80%">
-          <p>Hi this is username. From Brisbane.
+          <p>Hi this is username.
           </p>
-                
+                <button class="btn" type="button">Follow</button>
 
       </div>
     </div>
@@ -205,8 +200,8 @@
 </article>
 
 
-<a id="chat" href="localhost/~rubylee/chat/chat.php" target="_blank"><button id="chatbtn">Group Chatroom</button></a>   
-
+    
+<a id="chat" href="chat/chat.php">Chatroom</a>
 </body>
 </html>
 </html>
