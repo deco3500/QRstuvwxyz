@@ -1,0 +1,95 @@
+html{
+    font-family: Tahoma, Century, Helvetica, sans-serif; 
+}
+
+body {
+    background: ;
+    color: ;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    height: 3000px;
+    min-height: 100%;
+    text-rendering: optimizeLegibility;
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: -8px;
+    overflow-x: hidden;
+}
+
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header{
+    height: auto;
+    min-height: 540px;
+    background-image: url("../images/background.jpg");
+    background-repeat: none;
+    background-size: 100%;
+}
+
+nav {
+    position: absolute;
+    display: inline-block;
+    width: 100.7%;
+    height: 70px; 
+    font-size: 1.4em;
+    font-weight: bold;
+    z-index: 5000;
+    bottom: 0;
+}
+
+nav ul{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px; /*added*/
+}
+
+nav li{
+    list-style-type: none;
+    padding-right: 5%;
+    padding-left: 5%;
+    display: inline;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: blue;
+    transition: color .5s linear;
+}
+
+nav a:active{
+    text-decoration: none;
+    color: blue;
+}
+
+.fixed {
+    position: fixed; 
+    top: 0; 
+    height: 70px; 
+    z-index: 2000;
+}
+
+#about, #purchase, #contact{
+    height: 20%;
+    margin-left: 5%;
+    margin-bottom: 15%;
+    margin-top: 10%;
+    padding-top: 5%;
+    width: auto;
+}
