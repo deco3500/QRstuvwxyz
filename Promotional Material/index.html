@@ -1,48 +1,425 @@
 <html>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <head> 
-	<title> The Flexibles </title>
+	<title> Worldwide </title>
+	<link rel="stylesheet" href="libraries/font-awesome-4.7.0/css/font-awesome.min.css">
+	
+	<link href="libraries/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+	<link rel="stylesheet" href="libraries/lightbox2-master/dist/css/lightbox.min.css">
+	<script src="libraries/lightbox2-master/dist/css/lightbox.js"></script>
+	<script src="libraries/lightbox2-master/dist/js/ightbox-plus-jquery.js"></script>
+	<script src="libraries/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/footer-style.css">
 </head>
 
-<body>
+	<body>
 	<script type="text/javascript"></script>
 	<script src="js/jquery.js"></script>
 	<script src="js/smoothScroll.js"></script>	
 	<script src="js/scroll.js"></script>
+	<script src="libraries/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
+	<script>
+		lightbox.option({
+		  'resizeDuration': 200,
+		  'wrapAround': true,
+		  'maxWidth': 1000,
+		  'maxHeight':1000
+		})
+	</script>
 
 	<header id="header">
-		<img class="center" src="images/logo.png" height="500px" width="auto">
+	<!-- Reference image: http://www.trustcollective.com/wp-content/uploads/2013/08/bon2.jpg   -->
+		<img class="center" src="image/homeimage.jpg"  width="100%">
 	</header>
 
+	
 	<nav>
 		<div>
 			<ul>
 				<a href="#header" class="scroll"><li> HOME</li></a>
-				<a href="#about" class="scroll"><li> ABOUT</li></a>
+				<a href="#intro" class="scroll"><li> ABOUT</li></a>
 				<a href="#purchase" class="scroll"><li> PURCHASE</li></a>
 				<a href="#contact" class="scroll"><li> CONTACT</li></a>
 				<!--<a href="#" class="scroll"><li> LINK</li></a>-->
 			</ul>
 		</div>
 	</nav>
+	
 
-
-	<div id="about">
-		about flexibles
+	<div class= "row">
+		<div class="container" id="intro">
+			
+			<div class="row row-margins">
+			
+			<h5 class="text-left">Introduction</h5>
+			
+				<div class="intro">
+						
+						<p class="explainy-text">
+							The aim of the website is to have users who want to know more about news and communicate with other users around the world that have common interests.
+							By doing so, the goal for Spinning News is to have a fun, exciting, well designed interface in order for users to have the best interactions with the website,
+							is to have users enjoy their time on the website while they further read about news, and expand their knowledge about the world through recent news and others around the world. 
+							Furthermore users can interact with each other by communicating through chat and following each other’s profiles.
+								
+						</p>
+						<br>
+						<p class="explainy-text">
+						Users can filter what kind of news they would like to read around the world by either liking or disliking the post and this information will be kept on their profile in order to distribute the right 
+						information to them. The more likes and dislikes they put in, the more specific articles the application can distribute. Once clicking on a pinpoint they are interested in, they can look at the caption of the news, 
+						like or dislike it or decide to read more about the article. Choosing to read more will lead the users to an external page of the detailed article, such as the image and the article itself. 
+						</p>
+						<br>
+						<p class="explainy-text">
+						<strong> Our Challenge </strong>
+						<br>
+						The main challenge that the group faced was incorporating all different parts together to perform at its full functionalities. 
+						The implementation of the globe had areas within the code that caused difficulties incorporating other components such as buttons and the chat box.
+						Eventually, the group was able to come up with a prototype finalisation representing the application’s main functionalities.
+						</p>
+				</div>
+			
+					
+				
+			</div>
+		</div>	
+	</div>		
+	<div class= "row">
+		<div class="container" id="about1">
+		<div class="row row-margins" id="top">
+			<h6 class="text-left">Our Initial mock-up!</h6>
+			<div class="text-center">
+			<p>Click on the images</p>
+						
+						<a class="example-image-link" href="image/mockup.png" data-lightbox="mockup.png"  data-title="Mock-up"><img src="image/mockup.png" width="55%" ></a>
+						<br>
+						<br>
+						<a class="example-image-link" href="image/mockup2.png" data-lightbox="mockup.png"  data-title="Mock-up"><img src="image/mockup2.png" width="55%" ></a>
+			</div>
+				
+			<div id="words1">
+				
+				
+					<br>
+					<p class="explainy-text">
+						Mock-up illustrations of Spinning News, Figure 1: Initial view and interaction (Login or make an account) Figure 2: Once logged in, main interaction of the application consists the globe 
+						and filter buttons as well as user profile selections
+							
+					</p>
+					<br>
+					<p class="explainy-text">
+						 
+						What was first delivered was the basic aesthetics of the application; this included the index.html and styles.css file. Once the base was implemented, 
+						the globe was then added into the application. This design includes the globe having pinpoints, being spun, with a pop-up box, and being zoomed in and out as shown in Figure 3 and Figure 4. 
+						Whilst the globe was being implemented, the implementation for the Facebook login and the chat box was being included into the application seperately. 
+					</p>
+					<br>
+					<p class="explainy-text">
+						 
+						A mock-up design of the additional page is shown <strong>below</strong>. Additional features have been added such as the My Profile button, categories, other users’ profiles and the user’s dashboard. 
+						Chat room is available for users to chat on the right side. 
+						Brief information of a news article is now implemented in each pinpoint.
+					</p>
+					
+			
+				</div>
+			<div class="text-center" id="image-below">
+				<p>Click on the images</p>
+						
+					<a class="example-image-link" href="image/mockup3.png" data-lightbox="mockup.png"  data-title="Mock-up"><img src="image/mockup3.png" width="55%" ></a>
+					
+			</div>
+			
+			
+			
+			
+		</div>
+		</div>
 	</div>
+		
+	<div class= "row">
+			<div class="container" id="about2">
+		<div class="row  row-margins" >
+				<center><h3>What we have done so far....</h3></center>			
+			<div class="col-md-6 col-lg-6">
+				
+					<h2 class="text-center">Home page</h2>
+					<br>
+					<p class="explainy-text">
+						After user testing, it was discovered that the buttons that allowed different categories were distracting. 
+						Users were not able to fully experience the globe and run through all the pin-points that could have been discovered. 
+						It was decided to further implement the application by enhancing the globe and removing the buttons.
+					</p>
+					<p class="explainy-text">
+						By removing the buttons, it came to a realisation that the application no longer filters news categories and users were not able to choose their preference of articles to read. 
+						To overcome this problem, the group decided to implement like and unlike buttons within each pop up box.  
+						The aim of this implementation is to pull in the user’s common interests and their preference of news.
+						This filter will work through php and pulling tags from articles relating to the users’ like or dislike ,
+						once this data is filled, specific news will be distributed according to the user’s profile and interaction with the application.  
+					</p>
+					
+					
+			</div>
+			<div class="col-md-6 col-lg-6 text-center">
+			<p>Click on the images</p>
+						
+						<a class="example-image-link" href="image/done1.png" data-lightbox="done1.png"  data-title="Home page"><img class="display-images" src="image/done1.png" height="100%"></a>
+			</div>
+				
+									
+		</div>
+		
+		
+		<div class="row row-margins" id="top">
+			<hr width="10%">
+			<br>
+			<div class="col-md-6 col-lg-6 text-center">
+			<p>Click on the images</p>
+						
+						<a class="example-image-link" href="image/done2.PNG" data-lightbox="done1.png"  data-title="Article page"><img class="display-images" src="image/done2.PNG" height="100%"></a>
+						
+			</div>
+				
+			<div class="col-md-5 col-lg-6" id="words">
+				
+					<h2 class="text-center">Article page</h2>
+					<p class="explainy-text">
+						The article page should look like once user clicks on Read More on the pop up box shown on the globe. It will bring users to the detailed article and they can chat about it.
+					</p>
+					
+			</div>	
+			
+		</div>
+		
+		<div class="row row-margins" id="top">
+			<hr width="10%">
+			<br>
+			<div class="col-md-6 col-lg-6">
+				
+					<h2 class="text-center"> Profile page</h2>
+					<p class="explainy-text">
+					The profile page shows what the users’ account, what they have read and the people they are following as well as followers.
 
-	<div id="purchase">
-		purchase
+
+					</p>
+			</div>
+				<div class="col-md-6 col-lg-6 text-center" id="imag-padding">
+			<p>Click on the images</p>
+				<a class="example-image-link" href="image/done4.PNG" data-lightbox="done1.png"  data-title="my profile page"><img class="display-images" src="image/done4.PNG" height="100%"></a>		
+				<a class="example-image-link" href="image/done3.PNG" data-lightbox="done1.png"  data-title="my profile page"><img class="display-images" src="image/done3.PNG" height="100%"></a>
+				
+				</div>
+			
+		</div>
+		
+		
+		
+		
+		</div>
 	</div>
+</div>
+<div class= "row" id="bkcolor1">
+		<div class="container" id="about3">
+			<div class="row row-margins">
+						<center><h3>Our New Mockup plan!</h3></center>
+				<div class="col-md-6 col-lg-6 text-center">
+						<p>Click on the images</p>
+						<p>	
+							 <a class="example-image-link" href="image/home-1.png" data-lightbox="home-1.png"  data-title="Home page"><img class="display-images" src="image/home-1.png" ></a>
+							 
+							<a class="example-image-link" href="image/home-2.png" data-lightbox="home-1.png"  data-title="Home page"><img class="display-images" src="image/home-2.png" ></a>
+						</p>	
+				</div>
+				<div class="col-md-6 col-lg-6">
+						<h2 class="text-center">Home page</h2>
+						<br>
+						<p class="explainy-text" id="words">
+						The aim of this website is to have users who want to know more about news and communicate with other users around the world that have common interests. 
+						Users are to create their own profile on the application by using their Facebook account, 
+						the reasoning behind having a profile is to allow users communicate and follow one another without privacy concerns.
+						The convenience of logging into their Facebook account allows data extractions such as the profile picture, name, location and other information they choose to display. 
+						“The Trending now” section allows users to follow the latest news around the world.
+						</p>
+						<br>
+						<p class="explainy-text" id="words">
+						The globe is being added into the our web application. This design includes the globe having points, being spun, with a pop-up box, and being zoomed in and out. When users click on the point, 
+						it will then pop up a small box which provide a basic details of the new. There is also a link(Read more button) which could bring the user to article page.
+						</p>
+						
+						
+				</div>	
+						
+			</div>
+	
+			<div class="row row-margins" id="top">
+			<hr width="10%">
+				<div class="col-md-6 col-lg-6" id="words2">
+					
+					
+						<h2 class="text-center">Article page</h2>
+						<br>
+						<p class="explainy-text">
+							The article page can show the number of users who are viewing a particular news at the same time. The Like and Dislike buttons can indicated the viewers feelings or opinions.
+							The users can also discuss the news in the chat room and exchange their ideas.  							
+						</p>
 
-	<div id="contact">
-		contact info
-	</div>
+						<p class="explainy-text">
+							By clicking on the user name in the chat room, users can choose to follow the person who is chatting together 
+							or use the whisper function which allow users to chat directly to the person who they want!
+						
+						</p>
+				</div>
+				<div class="col-md-6 col-lg-6 text-center">
+				<p>Click on the images</p>
+							
+							<a class="example-image-link" href="image/articalpage.png" data-lightbox="home-1.png"  data-title="Home page"><img class="display-images" src="image/articalpage.png" ></a>
+				</div>
+					
+										
+				
+			</div>
+			
+			<hr width="10%">
+			<div class="row row-margins" id="top">
+			
+				<div class="col-md-6 col-lg-6 text-center">
+				<p>Click on the images</p>
+							
+							<a class="example-image-link" href="image/profilepage-1.png" data-lightbox="home-1.png"  data-title="Profile page"><img class="display-images" src="image/profilepage-1.png" ></a>
+				</div>
+								
+				<div class="col-md-6 col-lg-6">
+					
+						<h2 class="text-center">Profile page</h2>
+						<br>
+						<p class="explainy-text" id="words">
+							Users can put their image to in the profile. Profile page can also show all the article that are read by the users. 
+							The user followers/followings number are also be indicated in this page.  
+						</p>
+						
+						
+				</div>
+					
+										
+			</div>
+			<hr width="10%">
+			
+			<div class="row row-margins" id="top">
+				<div class="col-md-5 col-lg-6" id="words">
+					
+						<h2 class="text-center">Follower page</h2>
+						<p class="explainy-text" >
+							Users can find all the followrs who are following his/her profile! User can click on follow button in the username/description box or use the whisper function chatting together <strong> directly </strong>.
+						</p>
+						
+				</div>
+				<div class="col-md-6 col-lg-6 text-center">
+				<p>Click on the images</p>
+							
+							<a class="example-image-link" href="image/profilepage-follower.png" data-lightbox="home-1.png"  data-title="follower page"><img class="display-images" src="image/profilepage-follower.png" ></a>
+							
+				</div>
+					
+					
+				
+			</div>
+			<hr width="10%">
+			<div class="row row-margins" id="top">
+			
+				
+				<div class="col-md-6 col-lg-6 text-center" id="imag-padding">
+				<p>Click on the images</p>
+							
+					<a class="example-image-link" href="image/profilepage-followinf.png" data-lightbox="home-1.png"  data-title="followering page"><img class="display-images" src="image/profilepage-followinf.png" ></a>
+				</div>
+				
+				<div class="col-md-6 col-lg-6">
+					
+						<h2 class="text-center">Following page</h2>
+						<p class="explainy-text"id="words">
+							Users can find all their following people in this page! User can click on unfollow button in the username/description box to unsubscribe the person or use the whisper function to chat together <strong> directly </strong>.
+						</p>
+				</div>
+				
+			</div>
+			
+			
+		</div>	
+			
+</div>
+		
+	
+	<div class="row" id="bkcolor">
+	<div class="container" id="purchase">
+			<div class="row push-up" >
+				<h1>Purchase our site</h2>
+				<br>
+				<form id="commentForm">
+					<div class="form-group">
+						<div class="col-md-4 col-sm-4">
+							<label for="exampleInputEmail1">Name</label>
+							<input type="Name" class="form-control" id="name" placeholder="Enter name">
+							<br>
+							<label for="exampleInputAddress">Address</label>
+							<input type="Name" class="form-control" id="address" placeholder="Enter address">
+							<br>
+							<label for="exampleInputCard">Visa/MasterCard</label>
+							<input type="Name" class="form-control" id="card" placeholder="Enter credit card">
+							<br>
+							<label for="InputEmail1">Email</label>
+							<input type="Name" class="form-control" id="InputEmail1" placeholder="Enter email">
+							
+						</div>
+					</div>
+					<div class="form-group">
+						<div>
+							<div class="col-md-8 col-sm-8">
+								<label for="comment">Any comments or requests</label>
+								<textarea class="form-control" id="comment" rows="11" placeholder="Comments..."></textarea>
+								<br>
+							</div>
+						</div>
+						<div class="col-md-4 col-md-offset-2">
+							<button type="submit" class="btn subby-butty">Submit</button>
+						</div>
+					</div> 
+				</form>
+			</div>
+		</div>
+		</div>
+<!-- footer -->
+	<div class="container-fluid dark-blue" id="contact"> 
+			<div class="row">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 left footer-social">
+							<h4>1 World wide</h4>
+							<h4>Brisbane, QLD 4000</h4>
+							<h4>E: info@worldwide.com</h4>
+							<h4>P: +61 000000000 </h4>
+							<h4>&#169;2016 World wide</h4>
+						</div>
+						<div class="col-md-4 center">
+						</div>
+						<div class="col-md-4 footer-right footer-social" id="icon">
+							<h4>Connect with Us</h4>
+							<a href="#"><i class="fa fa-facebook icon-social" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter icon-social" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-instagram icon-social" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
+	</footer>
 </body>
-
-
-
 
 </html>
