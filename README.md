@@ -137,4 +137,37 @@ Finally, during construction stage, we will work on technical implementation of 
 ####Journalism/News:
 \#Top-news #International
 
+##Promotional Material:
+github.com/deco3500/Worldwide/tree/master/Promotional%20Material
 
+##Link to prototype: 
+github.com/deco3500/Worldwide
+
+##Introduction and Summary
+The aim of the project is to have users who want to know more about news and communicate with other users around the world that have common interests. By doing so, the goal for Spinning News is to have a fun, exciting, well designed interface in order for users to have the best interactions with the website, is to have users enjoy their time on the website while they further read about news, and expand their knowledge about the world through recent news and others around the world.  Furthermore users can interact with each other by communicating through chat and following each other’s profiles.
+
+Users can filter what kind of news they would like to read around the world by either liking or disliking the post and this information will be kept on their profile in order to distribute the right information to them. The more likes and dislikes they put in, the more specific articles the application can distribute. Once clicking on a pinpoint they are interested in, they can look at the caption of the news, like or dislike it or decide to read more about the article. Choosing to read more will lead the users to an external page of the detailed article, such as the image and the article itself.
+
+Regarding with the social aspect between users, users are to create their own profile on the application by either using their Facebook account or making their own account, the reasoning behind having a profile is to allow users communicate and follow one another without privacy concerns. The convenience of logging into their Facebook account allows data extractions such as the profile picture, name, location and other information they choose to display. Once users have created their profile and have logged in, they can choose to go onto their profile and see articles they have saved and read, as well as have a look at other users to see what they have read. Another interaction is the communication between users, there are different chat rooms available for users to enter into and discuss about many different things. Chat boxes are available specific to the article users would like to further discuss about and just a general chat box where they can converse about anything.
+
+What stands out about Spinning News is the way news is being delivered and how users interact with the news. As previously mentioned the technology has changed throughout the years but what has not shifted is the interaction users have with news. It is believed that Spinning News offers a more exciting approach to delivering news and how users interact with news and to furthermore interact with one anothe.
+
+##Process/Implementation
+###Stand Up Meeting Table
+week8 | Victoria | TszLam | Toy | Bryan |
+--- | --- | --- | --- | --- 
+What did I do since last meeting? | Had been working with the Facebook login. | I drew the wireframe of the website on paper. | Started implementing basic html and css (index.html, styles.css) | Started implementing basic html and css (index.html, styles.css)
+What will I do in the following week? | Will conduct paper prototyping for having better user experience & add pins on the globe | I will draw the mock-up and design the color schema using illustrator and start implement the buttons in the website. | Start implementing on the globe and the website’s aesthetics  | Try to implement a basic chat room interface to the web application
+What is stopping me from getting stuff done? | Facebook login only function in a zone or local host so it took me some time to set up my local host in my own laptop | I took quite a bit of time to design a website which can attract teenagers.  | The challenge of JavaScript language  | The challenge of php language and the other course assignments need to be completed first 
+
+week10 | Victoria | TszLam | Toy | Bryan |
+--- | --- | --- | --- | --- 
+What did I do since last meeting? | Added pins on the globe | I drew the mock-up and implement buttons and style in the website. | I have implemented the globe | I have implemented the interface of the chat room and basic functions
+What will I do in the following week? | Will conduct user testing for improving the web interface and user experience | I will start user testing. | Add pins and pop-up boxes for news content | I will try to fully implement the chat room and add a small chat boxes(similar to facebook)
+What is stopping me from getting stuff done? | Integrating everyone’s code (the buttons were not working when adding it on the globe page) | It is hard to design the color schema for the website that everyone can accepts it. | Challenge of the globe being unresponsive and JavaScript language. | Challenge of php language and the chat room interface looks a bit messy.
+
+week12 | Victoria | TszLam | Toy | Bryan |
+--- | --- | --- | --- | --- 
+What did I do since last meeting? | Added popup for login and added logout function & fixed up some CSS | Added profile page | I have added more pins, added dummy news content to the pop-up box, created a new external page for users to further read the news article | I have implemented the small chat boxes and improve the interface of the group chat room  
+What will I do in the following week? | Fix more CSS Base on the feedback we got, we decided to delete the buttons so user can have better user experience of spinning the globe. | I will change the website based on the feedback from user testing. | Build up on the aesthetics, add a like and dislike button for each pop-up | I will improve the website style CSS by using bootstrap library and reorganize the coding /folders. Fixing some bugs on the small chat boxes.  
+What is stopping me from getting stuff done? | Integrating everyone’s code| Integrating everyone’s code | Time management | Time management and reorganize those massive codes.
