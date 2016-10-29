@@ -109,7 +109,7 @@ hr{
 #about1{
     width: auto;
 	background-color:#eee;
-	height:60%;
+	height:auto;
 	
 }
 
@@ -183,9 +183,6 @@ hr{
 	margin-bottom:5%;
 }
 
-#image-below{
-	padding-top:4.2%;
-}
 
 #words2{
 	padding-left: 0.1%;
@@ -217,9 +214,7 @@ hr{
     width: auto;
 }
 
-#image-below{
-	padding-top: 10%;
-}
+
 
 h1{
     font-size: 1.8em;
