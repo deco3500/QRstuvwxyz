@@ -171,3 +171,45 @@ week12 | Victoria | TszLam | Toy | Bryan |
 What did I do since last meeting? | Added popup for login and added logout function & fixed up some CSS | Added profile page | I have added more pins, added dummy news content to the pop-up box, created a new external page for users to further read the news article | I have implemented the small chat boxes and improve the interface of the group chat room  
 What will I do in the following week? | Fix more CSS Base on the feedback we got, we decided to delete the buttons so user can have better user experience of spinning the globe. | I will change the website based on the feedback from user testing. | Build up on the aesthetics, add a like and dislike button for each pop-up | I will improve the website style CSS by using bootstrap library and reorganize the coding /folders. Fixing some bugs on the small chat boxes.  
 What is stopping me from getting stuff done? | Integrating everyone’s code| Integrating everyone’s code | Time management | Time management and reorganize those massive codes.
+
+<img width="762" alt="screen shot 2016-10-29 at 11 33 04 pm" src="https://cloud.githubusercontent.com/assets/13609350/19829906/1656a21c-9e30-11e6-9787-27f56a36d87b.png">
+
+Mock-up illustrations of Spinning News, Figure 1: Initial view and interaction (Login or create an account) Figure 2: Once logged in, main interaction of the application consists of the globe and filter buttons as well as user profile selections
+
+After discussing amongst one another and finalising the idea of Spinning News and the drawn mock-ups (Figure 1 and Figure 2), the team decided to split up implementing tasks step by step. 
+What was first delivered was the basic aesthetics of the application; this included the index.html and styles.css file. Once the base was implemented, the globe was then added into the application. This design included the globe having pinpoints, being spun, with a pop-up box, and being zoomed in and out as shown in Figure 3 and Figure 4. Whilst the globe was being implemented, the implementation for the Facebook login and the chat box was being included into the application separately. This was accomplished and demonstrated for the second stand-up meeting. 
+
+<img width="736" alt="screen shot 2016-10-29 at 11 34 06 pm" src="https://cloud.githubusercontent.com/assets/13609350/19829913/4805da58-9e30-11e6-8c70-5952f25c34b2.png">
+
+First implementation of the globe and pin points. Figure 4 shows that it zooms in.
+
+After receiving the feedback from the stand-up meeting, the team focused more on adding content and the back-end implementation of the application. It was decided that the additional page was required to the link “Read More”; leading users to an external page of the detailed news article and a chat box that allowed them to communicate about the particular article. A mock-up design of the additional page is shown in Figure 5. 
+
+<img width="742" alt="screen shot 2016-10-29 at 11 36 28 pm" src="https://cloud.githubusercontent.com/assets/13609350/19829919/93097ee2-9e30-11e6-84b6-19f1e5c8e81f.png">
+
+Additional features have been added such as the My Profile button, categories, other users’ profiles and the user’s dashboard. Chat room is available for users to chat on the right side. Brief information of a news article is now implemented in each pinpoint.
+
+After user testing (shown in Appendix 1), it was discovered that the buttons that allowed different categories were distracting. Users were not able to fully experience the globe and run through all the pin-points that could have been discovered. It was decided to further implement the application by enhancing the globe and removing the buttons. By removing the buttons, it came to a realisation that the application no longer filters news categories and users were not able to choose their preference of articles to read. To overcome this problem, the group decided to implement like and unlike buttons within each pop up box shown in Figure 6.  The aim of this implementation is to pull in the user’s common interests and their preference of news. This filter will work through php and pulling tags from articles relating to the users’ like or dislike , once this data is filled, specific news will be distributed according to the user’s profile and interaction with the application.
+
+<img width="706" alt="screen shot 2016-10-30 at 1 03 35 am" src="https://cloud.githubusercontent.com/assets/13609350/19830521/65aca480-9e3d-11e6-814c-5f49f31fb255.png">
+Further implementation, removals, additional and refinements have been made. Buttons are removed; chat box is more visually appealing.
+
+<img width="688" alt="screen shot 2016-10-30 at 1 26 10 am" src="https://cloud.githubusercontent.com/assets/13609350/19830659/e0e99750-9e3f-11e6-84e9-16b98e04fa0d.png">
+
+Figure 7 shows what the page should look like once user clicks on Read More on the pop up box shown on the globe. It will bring users to the detailed article and they can chat about it.
+Figure 8 shows the page from My Profile, this shows what the users’ account, what they have read and the people they are following as well as followers.
+
+###Challenges
+The main challenge that the group faced was incorporating all different parts together to perform at its full functionalities. The implementation of the globe had areas within the code that caused difficulties incorporating other components such as buttons and the chat box. Eventually, the group was able to come up with a prototype finalisation representing the application’s main functionalities. 
+
+###References
+BBC. BBC. Available at: bbc.com [Accessed 2016]. 
+
+Coyier, C., 2009. Building a jQuery/PHP Powered Chat Room. Building a jQuery/PHP Powered Chat Room. Available at: building a jquery/php powered chat room [Accessed 2016]. 
+
+Facebook, Web - Facebook Login - Documentation - Facebook for Developers. Facebook Developers. Available at: https://developers.facebook.com/docs/facebook-login/web/ [Accessed September 28, 2016]. 
+
+Osahan, G., HTML Snippets for Twitter Boostrap framework : Bootsnipp.com. Open in chat (popup-box chat-popup). Available at: http://bootsnipp.com/snippets/featured/open-in-chat-popup-box-chat-popup [Accessed October 28, 2016]. 
+
+Klokan Technologies, WebGL Earth - open source 3D digital globe written in JavaScript. WebGL Earth - open source 3D digital globe written in JavaScript. Available at: http://www.webglearth.org/ [Accessed September 20, 2016]. 
+
