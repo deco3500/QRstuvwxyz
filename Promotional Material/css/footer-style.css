@@ -38,25 +38,4 @@
     color: #f1c40f;
 }
 
-/*#lightbox{
-	display:none;
-	position: absolute;
-	top:50%;
-	left:50%;
-	z-index:9999;
-	width:*300px;*
-	height:*300px;*
-	margin:-250px 0 0 -250px;
-	background:#fff;
-	text-align:center;
-    vertical-align: 50%;
-	border: 2px solid black; 
-}
-
-#lightbox.done #lbContent{
-	display:block;
-	width: *280px;*
-	height: *280px;*
-	border: 10px solid white;
-}*/
 
