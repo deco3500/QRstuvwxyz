@@ -48,7 +48,6 @@ After discussing amongst one another and finalising the idea of Spinning News an
 What was first delivered was the basic aesthetics of the application; this included the index.html and styles.css file. Once the base was implemented, the globe was then added into the application. This design included the globe having pinpoints, being spun, with a pop-up box, and being zoomed in and out as shown in Figure 6 and Figure 7. Whilst the globe was being implemented, the implementation for the Facebook login and the chat box was being included into the application separately. This was accomplished and demonstrated for the second stand-up meeting. 
 
 <img width="481" alt="screen shot 2016-10-30 at 10 05 18 am" src="https://cloud.githubusercontent.com/assets/13609350/19833555/66b915ca-9e88-11e6-8ede-184c9c1ea839.png">
-First implementation of the globe and pin points. Figure 7 shows that it zooms in.
 
 After receiving the feedback from the stand-up meeting, the team focused more on adding content and the back-end implementation of the application. It was decided that the additional page was required to the link “Read More”; leading users to an external page of the detailed news article and a chat box that allowed them to communicate about the particular article. A mock-up design of the additional page is shown in Figure 8. 
 
