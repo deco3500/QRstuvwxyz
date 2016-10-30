@@ -1,5 +1,89 @@
 # Team Worldwide
 Team Worldwide - TszLam, Bryan, Toy, Vic
+##Promotional Material:
+github.com/deco3500/Worldwide/tree/master/Promotional%20Material
+
+##Link to prototype: 
+github.com/deco3500/Worldwide
+
+##Introduction and Summary
+The aim of the project is to have users who want to know more about news and communicate with other users around the world that have common interests. By doing so, the goal for Spinning News is to have a fun, exciting, well designed interface in order for users to have the best interactions with the website, is to have users enjoy their time on the website while they further read about news, and expand their knowledge about the world through recent news and others around the world.  Furthermore users can interact with each other by communicating through chat and following each other’s profiles.
+
+Users can filter what kind of news they would like to read around the world by either liking or disliking the post and this information will be kept on their profile in order to distribute the right information to them. The more likes and dislikes they put in, the more specific articles the application can distribute. Once clicking on a pinpoint they are interested in, they can look at the caption of the news, like or dislike it or decide to read more about the article. Choosing to read more will lead the users to an external page of the detailed article, such as the image and the article itself.
+
+<img width="561" alt="screen shot 2016-10-30 at 9 43 02 am" src="https://cloud.githubusercontent.com/assets/13609350/19833532/83d44478-9e87-11e6-97f3-148133cbb01a.png">
+
+
+Regarding with the social aspect between users, users are to create their own profile on the application by either using their Facebook (Figure 1 & 2) account or making their own account, the reasoning behind having a profile is to allow users communicate and follow one another without privacy concerns. The convenience of logging into their Facebook (Figure 3) account allows data extractions such as the profile picture, name, location and other information they choose to display. Once users have created their profile and have logged in, they can choose to go onto their profile and see articles they have saved and read, as well as have a look at other users to see what they have read. Another interaction is the communication between users, there are different chat rooms available for users to enter into and discuss about many different things. Chat boxes are available specific to the article users would like to further discuss about and just a general chat box where they can converse about anything.
+
+What stands out about Spinning News is the way news is being delivered and how users interact with the news. As previously mentioned the technology has changed throughout the years but what has not shifted is the interaction users have with news. It is believed that Spinning News offers a more exciting approach to delivering news and how users interact with news and to furthermore interact with one anothe.
+
+##Process/Implementation
+###Stand Up Meeting Table
+week8 | Victoria | TszLam | Toy | Bryan |
+--- | --- | --- | --- | --- 
+What did I do since last meeting? | Had been working with the Facebook login. | I drew the wireframe of the website on paper. | Started implementing basic html and css (index.html, styles.css) | Started implementing basic html and css (index.html, styles.css)
+What will I do in the following week? | Will conduct paper prototyping for having better user experience & add pins on the globe | I will draw the mock-up and design the color schema using illustrator and start implement the buttons in the website. | Start implementing on the globe and the website’s aesthetics  | Try to implement a basic chat room interface to the web application
+What is stopping me from getting stuff done? | Facebook login only function in a zone or local host so it took me some time to set up my local host in my own laptop | I took quite a bit of time to design a website which can attract teenagers.  | The challenge of JavaScript language  | The challenge of php language and the other course assignments need to be completed first 
+
+week10 | Victoria | TszLam | Toy | Bryan |
+--- | --- | --- | --- | --- 
+What did I do since last meeting? | Added pins on the globe | I drew the mock-up and implement buttons and style in the website. | I have implemented the globe | I have implemented the interface of the chat room and basic functions
+What will I do in the following week? | Will conduct user testing for improving the web interface and user experience | I will start user testing. | Add pins and pop-up boxes for news content | I will try to fully implement the chat room and add a small chat boxes(similar to facebook)
+What is stopping me from getting stuff done? | Integrating everyone’s code (the buttons were not working when adding it on the globe page) | It is hard to design the color schema for the website that everyone can accepts it. | Challenge of the globe being unresponsive and JavaScript language. | Challenge of php language and the chat room interface looks a bit messy.
+
+week12 | Victoria | TszLam | Toy | Bryan |
+--- | --- | --- | --- | --- 
+What did I do since last meeting? | Added popup for login and added logout function & fixed up some CSS | Added profile page | I have added more pins, added dummy news content to the pop-up box, created a new external page for users to further read the news article | I have implemented the small chat boxes and improve the interface of the group chat room  
+What will I do in the following week? | Fix more CSS Base on the feedback we got, we decided to delete the buttons so user can have better user experience of spinning the globe. | I will change the website based on the feedback from user testing. | Build up on the aesthetics, add a like and dislike button for each pop-up | I will improve the website style CSS by using bootstrap library and reorganize the coding /folders. Fixing some bugs on the small chat boxes.  
+What is stopping me from getting stuff done? | Integrating everyone’s code| Integrating everyone’s code | Time management | Time management and reorganize those massive codes.
+
+<img width="522" alt="screen shot 2016-10-30 at 10 03 34 am" src="https://cloud.githubusercontent.com/assets/13609350/19833549/2ef20a0c-9e88-11e6-95ce-185ac955067b.png">
+
+
+Mock-up illustrations of Spinning News, Figure 4: Initial view and interaction (Login or create an account) Figure 5: Once logged in, main interaction of the application consists of the globe and filter buttons as well as user profile selections
+
+
+After discussing amongst one another and finalising the idea of Spinning News and the drawn mock-ups (Figure 4 and Figure 5), the team decided to split up implementing tasks step by step. 
+What was first delivered was the basic aesthetics of the application; this included the index.html and styles.css file. Once the base was implemented, the globe was then added into the application. This design included the globe having pinpoints, being spun, with a pop-up box, and being zoomed in and out as shown in Figure 6 and Figure 7. Whilst the globe was being implemented, the implementation for the Facebook login and the chat box was being included into the application separately. This was accomplished and demonstrated for the second stand-up meeting. 
+
+<img width="481" alt="screen shot 2016-10-30 at 10 05 18 am" src="https://cloud.githubusercontent.com/assets/13609350/19833555/66b915ca-9e88-11e6-8ede-184c9c1ea839.png">
+First implementation of the globe and pin points. Figure 7 shows that it zooms in.
+
+After receiving the feedback from the stand-up meeting, the team focused more on adding content and the back-end implementation of the application. It was decided that the additional page was required to the link “Read More”; leading users to an external page of the detailed news article and a chat box that allowed them to communicate about the particular article. A mock-up design of the additional page is shown in Figure 8. 
+
+<img width="489" alt="screen shot 2016-10-30 at 10 06 45 am" src="https://cloud.githubusercontent.com/assets/13609350/19833561/a4b65608-9e88-11e6-9d93-a047faac385c.png">
+
+Additional features have been added such as the My Profile button, categories, other users’ profiles and the user’s dashboard. Chat room is available for users to chat on the right side. Brief information of a news article is now implemented in each pinpoint.
+
+After user testing (shown in Appendix 1), it was discovered that the buttons that allowed different categories were distracting. Users were not able to fully experience the globe and run through all the pin-points that could have been discovered. It was decided to further implement the application by enhancing the globe and removing the buttons. By removing the buttons, it came to a realisation that the application no longer filters news categories and users were not able to choose their preference of articles to read. To overcome this problem, the group decided to implement like and unlike buttons within each pop up box shown in Figure 8.  The aim of this implementation is to pull in the user’s common interests and their preference of news. This filter will work through php and pulling tags from articles relating to the users’ like or dislike, once this data is filled, specific news will be distributed according to the user’s profile and interaction with the application.
+
+<img width="485" alt="screen shot 2016-10-30 at 10 08 13 am" src="https://cloud.githubusercontent.com/assets/13609350/19833568/d292e3e8-9e88-11e6-9bc9-3200408eb348.png">
+
+Figure 10 shows what the page should look like once user clicks on Read More on the pop up box shown on the globe. It will bring users to the detailed article and they can chat about it.
+Figure 11 shows the page from My Profile, this shows what the users’ account, what they have read and the people they are following as well as followers.
+
+
+###Challenges
+The main challenge that the group faced was incorporating all different parts together to perform at its full functionalities. The implementation of the globe had areas within the code that caused difficulties incorporating other components such as buttons and the chat box. Eventually, the group was able to come up with a prototype finalisation representing the application’s main functionalities. 
+
+###References
+BBC. BBC. Available at: bbc.com [Accessed 2016]. 
+
+Coyier, C., 2009. Building a jQuery/PHP Powered Chat Room. Building a jQuery/PHP Powered Chat Room. Available at: building a jquery/php powered chat room [Accessed 2016]. 
+
+Facebook, Web - Facebook Login - Documentation - Facebook for Developers. Facebook Developers. Available at: https://developers.facebook.com/docs/facebook-login/web/ [Accessed September 28, 2016]. 
+
+Osahan, G., HTML Snippets for Twitter Boostrap framework : Bootsnipp.com. Open in chat (popup-box chat-popup). Available at: http://bootsnipp.com/snippets/featured/open-in-chat-popup-box-chat-popup [Accessed October 28, 2016]. 
+
+Klokan Technologies, WebGL Earth - open source 3D digital globe written in JavaScript. WebGL Earth - open source 3D digital globe written in JavaScript. Available at: http://www.webglearth.org/ [Accessed September 20, 2016]. 
+
+###APPENDIX
+<img width="471" alt="screen shot 2016-10-30 at 9 51 51 am" src="https://cloud.githubusercontent.com/assets/13609350/19833508/a9236e1c-9e86-11e6-85dc-82bf5ffe6b1b.png">
+<img width="479" alt="screen shot 2016-10-30 at 9 52 15 am" src="https://cloud.githubusercontent.com/assets/13609350/19833509/aaf043be-9e86-11e6-9b3d-9d7485792378.png">
+<img width="274" alt="screen shot 2016-10-30 at 9 52 31 am" src="https://cloud.githubusercontent.com/assets/13609350/19833510/acb61408-9e86-11e6-853b-83f0f4c70c54.png">
+<img width="390" alt="screen shot 2016-10-30 at 9 52 41 am" src="https://cloud.githubusercontent.com/assets/13609350/19833511/b27ff21e-9e86-11e6-99b3-92bb33c6b29e.png">
+
 
 ## Indroduction
 When people hear “news” they often associated it to something that is uninteresting due to how it is presented. Technology throughout the years has been improving as well as the way we interact with it, but what has come to a realisation is that news still has its similarities and has not shifted in the way it presents itself. The constant repetition of images and texts has resulted into many individuals not being interested in it because of its unexciting interaction. What has been identified is the interaction of reading and looking at images, scrolling up and down and/or flipping pages.<br />
@@ -136,80 +220,3 @@ Finally, during construction stage, we will work on technical implementation of 
 \#Communication #Social #Interactive #Web-application #Attractive
 ####Journalism/News:
 \#Top-news #International
-
-##Promotional Material:
-github.com/deco3500/Worldwide/tree/master/Promotional%20Material
-
-##Link to prototype: 
-github.com/deco3500/Worldwide
-
-##Introduction and Summary
-The aim of the project is to have users who want to know more about news and communicate with other users around the world that have common interests. By doing so, the goal for Spinning News is to have a fun, exciting, well designed interface in order for users to have the best interactions with the website, is to have users enjoy their time on the website while they further read about news, and expand their knowledge about the world through recent news and others around the world.  Furthermore users can interact with each other by communicating through chat and following each other’s profiles.
-
-Users can filter what kind of news they would like to read around the world by either liking or disliking the post and this information will be kept on their profile in order to distribute the right information to them. The more likes and dislikes they put in, the more specific articles the application can distribute. Once clicking on a pinpoint they are interested in, they can look at the caption of the news, like or dislike it or decide to read more about the article. Choosing to read more will lead the users to an external page of the detailed article, such as the image and the article itself.
-
-Regarding with the social aspect between users, users are to create their own profile on the application by either using their Facebook account or making their own account, the reasoning behind having a profile is to allow users communicate and follow one another without privacy concerns. The convenience of logging into their Facebook account allows data extractions such as the profile picture, name, location and other information they choose to display. Once users have created their profile and have logged in, they can choose to go onto their profile and see articles they have saved and read, as well as have a look at other users to see what they have read. Another interaction is the communication between users, there are different chat rooms available for users to enter into and discuss about many different things. Chat boxes are available specific to the article users would like to further discuss about and just a general chat box where they can converse about anything.
-
-What stands out about Spinning News is the way news is being delivered and how users interact with the news. As previously mentioned the technology has changed throughout the years but what has not shifted is the interaction users have with news. It is believed that Spinning News offers a more exciting approach to delivering news and how users interact with news and to furthermore interact with one anothe.
-
-##Process/Implementation
-###Stand Up Meeting Table
-week8 | Victoria | TszLam | Toy | Bryan |
---- | --- | --- | --- | --- 
-What did I do since last meeting? | Had been working with the Facebook login. | I drew the wireframe of the website on paper. | Started implementing basic html and css (index.html, styles.css) | Started implementing basic html and css (index.html, styles.css)
-What will I do in the following week? | Will conduct paper prototyping for having better user experience & add pins on the globe | I will draw the mock-up and design the color schema using illustrator and start implement the buttons in the website. | Start implementing on the globe and the website’s aesthetics  | Try to implement a basic chat room interface to the web application
-What is stopping me from getting stuff done? | Facebook login only function in a zone or local host so it took me some time to set up my local host in my own laptop | I took quite a bit of time to design a website which can attract teenagers.  | The challenge of JavaScript language  | The challenge of php language and the other course assignments need to be completed first 
-
-week10 | Victoria | TszLam | Toy | Bryan |
---- | --- | --- | --- | --- 
-What did I do since last meeting? | Added pins on the globe | I drew the mock-up and implement buttons and style in the website. | I have implemented the globe | I have implemented the interface of the chat room and basic functions
-What will I do in the following week? | Will conduct user testing for improving the web interface and user experience | I will start user testing. | Add pins and pop-up boxes for news content | I will try to fully implement the chat room and add a small chat boxes(similar to facebook)
-What is stopping me from getting stuff done? | Integrating everyone’s code (the buttons were not working when adding it on the globe page) | It is hard to design the color schema for the website that everyone can accepts it. | Challenge of the globe being unresponsive and JavaScript language. | Challenge of php language and the chat room interface looks a bit messy.
-
-week12 | Victoria | TszLam | Toy | Bryan |
---- | --- | --- | --- | --- 
-What did I do since last meeting? | Added popup for login and added logout function & fixed up some CSS | Added profile page | I have added more pins, added dummy news content to the pop-up box, created a new external page for users to further read the news article | I have implemented the small chat boxes and improve the interface of the group chat room  
-What will I do in the following week? | Fix more CSS Base on the feedback we got, we decided to delete the buttons so user can have better user experience of spinning the globe. | I will change the website based on the feedback from user testing. | Build up on the aesthetics, add a like and dislike button for each pop-up | I will improve the website style CSS by using bootstrap library and reorganize the coding /folders. Fixing some bugs on the small chat boxes.  
-What is stopping me from getting stuff done? | Integrating everyone’s code| Integrating everyone’s code | Time management | Time management and reorganize those massive codes.
-
-<img width="762" alt="screen shot 2016-10-29 at 11 33 04 pm" src="https://cloud.githubusercontent.com/assets/13609350/19829906/1656a21c-9e30-11e6-9787-27f56a36d87b.png">
-
-Mock-up illustrations of Spinning News, Figure 1: Initial view and interaction (Login or create an account) Figure 2: Once logged in, main interaction of the application consists of the globe and filter buttons as well as user profile selections
-
-After discussing amongst one another and finalising the idea of Spinning News and the drawn mock-ups (Figure 1 and Figure 2), the team decided to split up implementing tasks step by step. 
-What was first delivered was the basic aesthetics of the application; this included the index.html and styles.css file. Once the base was implemented, the globe was then added into the application. This design included the globe having pinpoints, being spun, with a pop-up box, and being zoomed in and out as shown in Figure 3 and Figure 4. Whilst the globe was being implemented, the implementation for the Facebook login and the chat box was being included into the application separately. This was accomplished and demonstrated for the second stand-up meeting. 
-
-<img width="736" alt="screen shot 2016-10-29 at 11 34 06 pm" src="https://cloud.githubusercontent.com/assets/13609350/19829913/4805da58-9e30-11e6-8c70-5952f25c34b2.png">
-
-First implementation of the globe and pin points. Figure 4 shows that it zooms in.
-
-After receiving the feedback from the stand-up meeting, the team focused more on adding content and the back-end implementation of the application. It was decided that the additional page was required to the link “Read More”; leading users to an external page of the detailed news article and a chat box that allowed them to communicate about the particular article. A mock-up design of the additional page is shown in Figure 5. 
-
-<img width="742" alt="screen shot 2016-10-29 at 11 36 28 pm" src="https://cloud.githubusercontent.com/assets/13609350/19829919/93097ee2-9e30-11e6-84b6-19f1e5c8e81f.png">
-
-Additional features have been added such as the My Profile button, categories, other users’ profiles and the user’s dashboard. Chat room is available for users to chat on the right side. Brief information of a news article is now implemented in each pinpoint.
-
-After user testing (shown in Appendix 1), it was discovered that the buttons that allowed different categories were distracting. Users were not able to fully experience the globe and run through all the pin-points that could have been discovered. It was decided to further implement the application by enhancing the globe and removing the buttons. By removing the buttons, it came to a realisation that the application no longer filters news categories and users were not able to choose their preference of articles to read. To overcome this problem, the group decided to implement like and unlike buttons within each pop up box shown in Figure 6.  The aim of this implementation is to pull in the user’s common interests and their preference of news. This filter will work through php and pulling tags from articles relating to the users’ like or dislike , once this data is filled, specific news will be distributed according to the user’s profile and interaction with the application.
-
-<img width="706" alt="screen shot 2016-10-30 at 1 03 35 am" src="https://cloud.githubusercontent.com/assets/13609350/19830521/65aca480-9e3d-11e6-814c-5f49f31fb255.png">
-Further implementation, removals, additional and refinements have been made. Buttons are removed; chat box is more visually appealing.
-
-<img width="688" alt="screen shot 2016-10-30 at 1 26 10 am" src="https://cloud.githubusercontent.com/assets/13609350/19830659/e0e99750-9e3f-11e6-84e9-16b98e04fa0d.png">
-
-Figure 7 shows what the page should look like once user clicks on Read More on the pop up box shown on the globe. It will bring users to the detailed article and they can chat about it.
-Figure 8 shows the page from My Profile, this shows what the users’ account, what they have read and the people they are following as well as followers.
-
-###Challenges
-The main challenge that the group faced was incorporating all different parts together to perform at its full functionalities. The implementation of the globe had areas within the code that caused difficulties incorporating other components such as buttons and the chat box. Eventually, the group was able to come up with a prototype finalisation representing the application’s main functionalities. 
-
-###References
-BBC. BBC. Available at: bbc.com [Accessed 2016]. 
-
-Coyier, C., 2009. Building a jQuery/PHP Powered Chat Room. Building a jQuery/PHP Powered Chat Room. Available at: building a jquery/php powered chat room [Accessed 2016]. 
-
-Facebook, Web - Facebook Login - Documentation - Facebook for Developers. Facebook Developers. Available at: https://developers.facebook.com/docs/facebook-login/web/ [Accessed September 28, 2016]. 
-
-Osahan, G., HTML Snippets for Twitter Boostrap framework : Bootsnipp.com. Open in chat (popup-box chat-popup). Available at: http://bootsnipp.com/snippets/featured/open-in-chat-popup-box-chat-popup [Accessed October 28, 2016]. 
-
-Klokan Technologies, WebGL Earth - open source 3D digital globe written in JavaScript. WebGL Earth - open source 3D digital globe written in JavaScript. Available at: http://www.webglearth.org/ [Accessed September 20, 2016]. 
-
